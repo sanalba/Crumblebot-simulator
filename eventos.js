@@ -1,5 +1,1258 @@
-<<<<<<< HEAD
-function a0_0x3d60(){const _0xb8faae=['push','splice','131420ujDXlv','body','calculoAnchoDato','WhenRunBlock','VariableBlock','valorNumerico','Body','tipoDato','4431385pTxwMN','actualizarCoordenadas','assets/images/escenarios/','SetSprakleBlock','calculoDimensiones','xInicio','boton','alargar','width','anteriorClon','AxDato','isStatic','substring','grosorTotal','ultrasonidosConectado','setSize','GreaterThanBlock','padre','nombre','SmartDigitsBlock','setAngularVelocity','DoTimesBlock','clear','valorElemento','79205IcglyZ','anterior','siguienteClon','borrarVariables','MultiplyBlock','dato','actualizarNombreVariables','DivideBlock','siguiente','6waVkaq','potMotor','position','NotEqualBlock','toString','IfElseBlock','SmartPitchBlock','colisionDatos','bucleSiguiente','eliminar','setPosition','desconectar','grosorBloque','963seIORl','AddNewVariableButton','Robot\x20fuera\x20de\x20los\x20límites\x20del\x20mundo','height','setVelocity','EqualityBlock','16643IEqJJK','delta','4812416zALutw','ancho','8466285EybxBl','AxTexto','log','My\x20Var','modoTransformacion','ServoBlock','WaitBlock','categoria','texto','padreClon','seleccionBloquesDependientes','floor','enEscenario','length','RandomBlock','#rrggbb','addSubBloque','DoForeverBlock','yInicio','3857624fPmVwp','background','variablePadre','WaitMSBlock','SetAllSparklesRGBBlock','5688GQKRAw','estatico','tipo','angle','bucleSiguienteClon','ElseBlock','ensanchar','num','alto','image','colision','subBloque','conectar','3oVDUPu','calculoGrosorBucle','colisionInterior','8bLwlOJ','SubBlock','ServoBlockType','indexOf'];a0_0x3d60=function(){return _0xb8faae;};return a0_0x3d60();}(function(_0x457830,_0x36ff23){const _0x5a8b51=a0_0xdefc,_0x1ab9df=_0x457830();while(!![]){try{const _0x50cef2=parseInt(_0x5a8b51(0x1f6))/0x1+parseInt(_0x5a8b51(0x229))/0x2*(-parseInt(_0x5a8b51(0x23b))/0x3)+parseInt(_0x5a8b51(0x214))/0x4+-parseInt(_0x5a8b51(0x216))/0x5*(-parseInt(_0x5a8b51(0x1ff))/0x6)+parseInt(_0x5a8b51(0x24c))/0x7*(parseInt(_0x5a8b51(0x23e))/0x8)+-parseInt(_0x5a8b51(0x20c))/0x9*(parseInt(_0x5a8b51(0x244))/0xa)+-parseInt(_0x5a8b51(0x212))/0xb*(-parseInt(_0x5a8b51(0x22e))/0xc);if(_0x50cef2===_0x36ff23)break;else _0x1ab9df['push'](_0x1ab9df['shift']());}catch(_0x529371){_0x1ab9df['push'](_0x1ab9df['shift']());}}}(a0_0x3d60,0xf1e39));function mousePressed(){const _0x57b482=a0_0xdefc;if(mouseButton===LEFT){transformedXbasico=mouseX/escalaBase,transformedYbasico=mouseY/escalaBase;for(let _0x240732=0x3;_0x240732<numBotones-0x2;_0x240732++){if(transformedXbasico>xBoton[_0x240732]-boton[_0x240732][_0x57b482(0x254)]/0x2&&transformedXbasico<xBoton[_0x240732]+boton[_0x240732][_0x57b482(0x254)]/0x2&&transformedYbasico>yBoton[_0x240732]-boton[_0x240732][_0x57b482(0x254)]/0x2&&transformedYbasico<yBoton[_0x240732]+boton[_0x240732][_0x57b482(0x20f)]/0x2){if(modo!==_0x240732){modo=_0x240732;return;}}}let _0x3664a3=0x0;if(transformedXbasico>xBoton[0x6]-ANCHO_BOTON/0x2&&transformedXbasico<xBoton[0x6]+ANCHO_BOTON/0x2&&transformedYbasico>yBoton[0x6]-ANCHO_BOTON/0x2&&transformedYbasico<yBoton[0x6]+ANCHO_BOTON/0x2)_0x3664a3=-0.25;else transformedXbasico>xBoton[0x7]-ANCHO_BOTON/0x2&&transformedXbasico<xBoton[0x7]+ANCHO_BOTON/0x2&&transformedYbasico>yBoton[0x7]-ANCHO_BOTON/0x2&&transformedYbasico<yBoton[0x7]+ANCHO_BOTON/0x2&&(_0x3664a3=0.25);if(_0x3664a3!==0x0){if(modo===0x3)zoomConfiguracion=zoomConfiguracion+_0x3664a3,zoomConfiguracion=constrain(zoomConfiguracion,0x1,1.5);else{if(modo===0x4)zoomCodigo=zoomCodigo+_0x3664a3,zoomCodigo=constrain(zoomCodigo,0.5,1.5);else modo===0x5&&(zoomSimulacion=zoomSimulacion+_0x3664a3,zoomSimulacion=constrain(zoomSimulacion,0.25,1.5),robot[_0x57b482(0x1ec)]===!![]&&(radio=0x0,bufferEfectos[_0x57b482(0x1f4)]()));}return;}for(let _0xbf2477=0x0;_0xbf2477<0x3;_0xbf2477++){if(transformedXbasico>xBoton[_0xbf2477]-ANCHO_BOTON/0x2&&transformedXbasico<xBoton[_0xbf2477]+ANCHO_BOTON/0x2&&transformedYbasico>yBoton[_0xbf2477]-ANCHO_BOTON/0x2&&transformedYbasico<yBoton[_0xbf2477]+ANCHO_BOTON/0x2){robot[_0x57b482(0x1ec)]===!![]&&(radio=0x0,bufferEfectos['clear']());if(_0xbf2477===0x0)botonPlay();else{if(_0xbf2477===0x1)botonStop();else{if(_0xbf2477===0x2)botonReiniciar();}}return;}}if(modo==0x5){if(dist(mouseX,mouseY,windowWidth-0x9b,windowHeight/0x2-0x28)<0xa){elemento[0x4][_0x57b482(0x1f5)]=0xff;return;}if(dist(mouseX,mouseY,windowWidth-0x4b,windowHeight/0x2-0x28)<0xa){elemento[0x6][_0x57b482(0x1f5)]=0xff;return;}if(transformedXbasico>windowWidth/0x2-anchoBulb/0x2&&transformedXbasico<windowWidth/0x2+anchoBulb/0x2&&transformedYbasico>windowHeight-0x64-bulb['height']/0x2&&transformedYbasico<windowHeight-0x64+bulb[_0x57b482(0x20f)]/0x2){bulbX=windowWidth/0x2-robotFisico[_0x57b482(0x245)][_0x57b482(0x201)]['x'],bulbY=windowHeight-0x64-robotFisico['body'][_0x57b482(0x201)]['y'],offsetX=bulbX-transformedXbasico,offsetY=bulbY-transformedYbasico,desplazandoBulb=!![];return;}transformedX=(mouseX-windowWidth/0x2)/(zoomSimulacion*escalaBase)-panSimulacionX,transformedY=(mouseY-windowHeight/0x2)/(zoomSimulacion*escalaBase)-panSimulacionY,transformedObstaculoX=(mouseX-windowWidth/0x2)/(zoomSimulacion*escalaBase)-panSimulacionX+robotFisico[_0x57b482(0x245)][_0x57b482(0x201)]['x'],transformedObstaculoY=(mouseY-windowHeight/0x2)/(zoomSimulacion*escalaBase)-panSimulacionY+robotFisico[_0x57b482(0x245)][_0x57b482(0x201)]['y'],transformedXbasico=(mouseX-windowWidth/0x2)/escalaBase,transformedYbasico=(mouseY-0x0)/escalaBase;if(!ejecutando){if(transformedXbasico>-0x5a-0x50&&transformedXbasico<-0x5a+0x50&&transformedYbasico>0x4b&&transformedYbasico<0x69){let _0x3a705e=new Obstaculo(transformedX+robotFisico[_0x57b482(0x245)][_0x57b482(0x201)]['x'],transformedY+robotFisico['body'][_0x57b482(0x201)]['y'],0x50,0x50,0x0,![]);obstaculo['push'](_0x3a705e),offsetX=_0x3a705e[_0x57b482(0x245)][_0x57b482(0x201)]['x']-transformedX,offsetY=_0x3a705e[_0x57b482(0x245)]['position']['y']-transformedY,RectX=_0x3a705e[_0x57b482(0x245)][_0x57b482(0x201)]['x'],RectY=_0x3a705e[_0x57b482(0x245)][_0x57b482(0x201)]['y'],obstaculoSeleccionado=null,obstaculoDesplazando=_0x3a705e,movidoDuranteEjecucion=!![];return;}if(transformedXbasico>0x5a-0x50&&transformedXbasico<0x5a+0x50&&transformedYbasico>0x4b&&transformedYbasico<0x69){let _0x3108f7=new Obstaculo(transformedX+robotFisico[_0x57b482(0x245)][_0x57b482(0x201)]['x'],transformedY+robotFisico[_0x57b482(0x245)]['position']['y'],0x50,0x50,0x0,!![]);obstaculo['push'](_0x3108f7),offsetX=_0x3108f7[_0x57b482(0x245)][_0x57b482(0x201)]['x']-transformedX,offsetY=_0x3108f7['body'][_0x57b482(0x201)]['y']-transformedY,RectX=_0x3108f7[_0x57b482(0x245)]['position']['x'],RectY=_0x3108f7[_0x57b482(0x245)][_0x57b482(0x201)]['y'],obstaculoSeleccionado=null,obstaculoDesplazando=_0x3108f7,movidoDuranteEjecucion=!![];return;}if(obstaculoSeleccionado!=null){obstaculoSeleccionado[_0x57b482(0x21a)]=obstaculoSeleccionado[_0x57b482(0x238)]();if(obstaculoSeleccionado[_0x57b482(0x21a)]>0x0&&obstaculoSeleccionado[_0x57b482(0x21a)]<0x6){obstaculoSeleccionado[_0x57b482(0x245)][_0x57b482(0x257)]=!![];if(obstaculoSeleccionado[_0x57b482(0x21a)]==0x1){let _0xf69b42=atan2(transformedObstaculoY-obstaculoSeleccionado['body']['position']['y'],transformedObstaculoX-obstaculoSeleccionado[_0x57b482(0x245)]['position']['x']);offsetAngulo=_0xf69b42-obstaculoSeleccionado[_0x57b482(0x245)][_0x57b482(0x231)];}}else obstaculoSeleccionado=null,obstaculoSeleccionado['body']['isStatic']=obstaculoSeleccionado[_0x57b482(0x22f)];return;}for(let _0x518513 of obstaculo){if(_0x518513[_0x57b482(0x238)]()==0x6){if(Crono>0x0)movidoDuranteEjecucion=!![];offsetX=_0x518513[_0x57b482(0x245)][_0x57b482(0x201)]['x']-transformedX,offsetY=_0x518513[_0x57b482(0x245)][_0x57b482(0x201)]['y']-transformedY,obstaculoDesplazando=_0x518513,RectX=obstaculoDesplazando[_0x57b482(0x245)][_0x57b482(0x201)]['x'],RectY=obstaculoDesplazando[_0x57b482(0x245)][_0x57b482(0x201)]['y'],obstaculoSeleccionado=null,movidoDuranteEjecucion=!![];return;}}resultadoSeleccion=robotFisico[_0x57b482(0x238)]();if(robotSeleccionado==!![]){if(resultadoSeleccion==0x1){anguloInicial=atan2(transformedY,transformedX),offsetAngulo=anguloInicial-robotFisico[_0x57b482(0x245)][_0x57b482(0x231)],angleDragged=robotFisico[_0x57b482(0x245)]['angle'],robotFisico['body'][_0x57b482(0x257)]=!![];return;}else{if(resultadoSeleccion==0x0){robotSeleccionado=![];return;}}}if(resultadoSeleccion==0x2){desplazandoRobot=!![],robotFisico['body']['isStatic']=!![],robotSeleccionado=![],offsetX=robotFisico[_0x57b482(0x245)][_0x57b482(0x201)]['x']-transformedX,offsetY=robotFisico['body'][_0x57b482(0x201)]['y']-transformedY,CrumblebotAnteriorX=robotFisico[_0x57b482(0x245)][_0x57b482(0x201)]['x'],CrumblebotAnteriorY=robotFisico[_0x57b482(0x245)][_0x57b482(0x201)]['y'],CrumX=robotFisico[_0x57b482(0x245)][_0x57b482(0x201)]['x'],CrumY=robotFisico[_0x57b482(0x245)][_0x57b482(0x201)]['y'];return;}}ejecutando==![]&&(panningSimulacion=!![],panStartSimulacionX=mouseX,panStartSimulacionY=mouseY);return;}else{if(modo==0x4){if(colorPickerOpen&&bloqueEditando){mouseColorX=(mouseX-windowWidth/0x2+ANCHO_MARCO/0x2)/escalaBase,mouseColorY=int((mouseY-windowHeight/0x2+ALTO_MARCO/0x2)/escalaBase);let _0x2e99b9=mouseX-(windowWidth/0x2-ANCHO_MARCO/0x2*escalaBase),_0x279b3f=mouseY-(windowHeight/0x2-ALTO_MARCO/0x2*escalaBase),_0x3d0f11=_0x2e99b9/escalaBase,_0x43863f=_0x279b3f/escalaBase;if(mouseColorX>=PICKER_X&&mouseColorX<=PICKER_X+ANCHO_PICKER&&mouseColorY>=PICKER_Y-ALTO_PICKER&&mouseColorY<=PICKER_Y){hue=Math['floor'](map(mouseColorX-PICKER_X,0x0,ANCHO_PICKER,0x0,0xef)),saturation=Math[_0x57b482(0x221)](map(PICKER_Y-mouseColorY,0x0,ALTO_PICKER,0x0,0xf0)),currentColor=HSBtoRGB(hue,saturation,getBrightness(currentColor)),updateColor();return;}let _0x206e95=PICKER_X+ANCHO_PICKER+0xa;if(mouseColorX>=_0x206e95&&mouseColorX<=_0x206e95+0xa&&mouseColorY>=PICKER_Y-ALTO_PICKER&&mouseColorY<=PICKER_Y){brightness=Math[_0x57b482(0x221)](map(PICKER_Y-mouseColorY,0x0,ALTO_PICKER,0x0,0xf0)),currentColor=HSBtoRGB(getHue(currentColor),getSaturation(currentColor),brightness),updateColor();return;}if(_0x3d0f11>0xa&&_0x3d0f11<0xcd&&_0x43863f>0xfa&&_0x43863f<0x10e)return;if(_0x3d0f11>0xa&&_0x3d0f11<0x64&&_0x43863f>0x118&&_0x43863f<0x12c){colorPickerOpen=![],bloqueEditando[_0x57b482(0x1fb)][subBloqueEditando]=currentColor[_0x57b482(0x203)](_0x57b482(0x225)),console[_0x57b482(0x218)](bloqueEditando[_0x57b482(0x1fb)][subBloqueEditando]),bloqueEditando=null;return;}if(_0x3d0f11>0x73&&_0x3d0f11<0xcd&&_0x43863f>0x118&&_0x43863f<0x12c){colorPickerOpen=![],bloqueEditando=null;return;}if(_0x3d0f11>0xa&&_0x3d0f11<0xaa&&_0x43863f>0x28&&_0x43863f<0xa0){let _0x1d4065=int((_0x3d0f11-0xa)/0x19),_0x276605=int((_0x43863f-0x28)/0x14);_0x1d4065>=0x0&&_0x1d4065<0x8&&_0x276605>=0x0&&_0x276605<0x6&&(BASIC_COLORSeleccionado=_0x276605*0x8+_0x1d4065,currentColor=BASIC_COLOR[BASIC_COLORSeleccionado],updateColor());return;}if(_0x3d0f11>0xa&&_0x3d0f11<0x5a&&_0x43863f>0xc8&&_0x43863f<0xf0){let _0x6c00fe=int((_0x3d0f11-0xa)/0x19),_0x317560=int((_0x43863f-0xc8)/0x14);_0x6c00fe>=0x0&&_0x6c00fe<0x4&&_0x317560>=0x0&&_0x317560<0x4&&(customColorSeleccionado=_0x317560*0x4+_0x6c00fe,customColor[customColorSeleccionado]&&(currentColor=customColor[customColorSeleccionado],updateColor()));return;}if(customColorActivo&&_0x3d0f11>PICKER_X&&_0x3d0f11<PICKER_X+ANCHO_PICKER&&_0x43863f>PICKER_Y-ALTO_PICKER&&_0x43863f<PICKER_Y){hue=map(_0x3d0f11-PICKER_X,0x0,ANCHO_PICKER,0x0,0xef),saturation=map(PICKER_Y-_0x43863f,0x0,ALTO_PICKER,0x0,0xf0),currentColor=HSBtoRGB(hue,saturation,brightness),updateColor();return;}if(customColorActivo&&_0x3d0f11>PICKER_X+ANCHO_PICKER+0xa&&_0x3d0f11<PICKER_X+ANCHO_PICKER+0x14&&_0x43863f>PICKER_Y-ALTO_PICKER&&_0x43863f<PICKER_Y){brightness=map(PICKER_Y-_0x43863f,0x0,ALTO_PICKER,0x0,0xf0),currentColor=HSBtoRGB(hue,saturation,brightness),updateColor();return;}if(customColorActivo&&_0x3d0f11>PICKER_X&&_0x3d0f11<PICKER_X+ANCHO_PICKER+0x14&&_0x43863f>0x118&&_0x43863f<0x12c){if(customColorSeleccionado<0x10)customColor[customColorSeleccionado]=currentColor;else for(let _0x476142=0x0;_0x476142<customColor[_0x57b482(0x223)];_0x476142++){if(!customColor[_0x476142]){customColor[_0x476142]=currentColor,customColorSeleccionado=_0x476142;break;}}return;}return;}else transformedX=(mouseX-windowWidth/0x2)/(zoomCodigo*escalaBase)-panCodigoX,transformedY=(mouseY-windowHeight/0x2)/(zoomCodigo*escalaBase)-panCodigoY;if(bloqueSeleccionado!==null&&desplegableBloque){if(mouseX>xDesplegable+0xa*escalaBase&&mouseX<xDesplegable+0xc8*escalaBase&&mouseY>yDesplegable&&mouseY<yDesplegable+0x19*escalaBase){let _0x16f08f;bloquesVirtuales=[];for(let _0x4dee6c of bloquesSeleccionados){_0x16f08f=_0x4dee6c['clonarBloque'](),bloquesVirtuales[_0x57b482(0x242)](_0x16f08f);}for(let _0x24ecab=0x0;_0x24ecab<bloquesSeleccionados[_0x57b482(0x223)];_0x24ecab++){bloquesSeleccionados[_0x24ecab][_0x57b482(0x255)]===-0x1?bloquesVirtuales[_0x24ecab][_0x57b482(0x1f7)]=null:bloquesVirtuales[_0x24ecab]['anterior']=bloquesVirtuales[bloquesSeleccionados[_0x24ecab][_0x57b482(0x255)]],bloquesSeleccionados[_0x24ecab][_0x57b482(0x1f8)]===-0x1?bloquesVirtuales[_0x24ecab]['siguiente']=null:bloquesVirtuales[_0x24ecab][_0x57b482(0x1fe)]=bloquesVirtuales[bloquesSeleccionados[_0x24ecab][_0x57b482(0x1f8)]],bloquesSeleccionados[_0x24ecab][_0x57b482(0x21f)]===-0x1?bloquesVirtuales[_0x24ecab][_0x57b482(0x1ef)]=null:bloquesVirtuales[_0x24ecab]['padre']=bloquesVirtuales[bloquesSeleccionados[_0x24ecab][_0x57b482(0x21f)]],bloquesSeleccionados[_0x24ecab][_0x57b482(0x232)]===-0x1?bloquesVirtuales[_0x24ecab][_0x57b482(0x207)]=null:bloquesVirtuales[_0x24ecab][_0x57b482(0x207)]=bloquesVirtuales[bloquesSeleccionados[_0x24ecab][_0x57b482(0x232)]],bloquesSeleccionados[_0x24ecab][_0x57b482(0x255)]=-0x1,bloquesSeleccionados[_0x24ecab][_0x57b482(0x1f8)]=-0x1,bloquesSeleccionados[_0x24ecab]['padreClon']=-0x1,bloquesSeleccionados[_0x24ecab]['bucleSiguienteClon']=-0x1;}for(let _0x1eccca=0x0;_0x1eccca<bloquesVirtuales['length'];_0x1eccca++){bloquesVirtuales[_0x1eccca][_0x57b482(0x255)]=-0x1,bloquesVirtuales[_0x1eccca][_0x57b482(0x1f8)]=-0x1,bloquesVirtuales[_0x1eccca][_0x57b482(0x21f)]=-0x1,bloquesVirtuales[_0x1eccca][_0x57b482(0x232)]=-0x1,codigo['push'](bloquesVirtuales[_0x1eccca]);}desplegableBloque=![];return;}if(mouseX>xDesplegable+0xa*escalaBase&&mouseX<xDesplegable+0xc8*escalaBase&&mouseY>yDesplegable+0x19*escalaBase&&mouseY<yDesplegable+0x32*escalaBase){eliminarBloques(),bloquesSeleccionados=[],desplegableBloque=![];return;}}for(let _0x27174e=0x0;_0x27174e<codigoCategoria[_0x57b482(0x223)];_0x27174e++){if(codigoCategoria[_0x27174e]['colision'](transformedXbasico,transformedYbasico,!![])!==null){menu=_0x27174e;return;}}for(let _0x27547c of codigoMenu){if(_0x27547c[_0x57b482(0x21d)]===menu){if(_0x27547c['colision'](transformedXbasico,transformedYbasico,!![])!==null){if(_0x27547c[_0x57b482(0x1f0)]===_0x57b482(0x20d)&&menu==0x3)crearVariable(_0x57b482(0x219)),bloqueEditando=codigoVariables[codigoVariables['length']-0x1];else{let _0x5dbde6=_0x27547c['id'];offsetX=Math[_0x57b482(0x221)](_0x27547c['x']-transformedXbasico),offsetY=Math[_0x57b482(0x221)](_0x27547c['y']-transformedYbasico);let _0x4795cb=new Bloque(Math['floor']((transformedX+offsetX)/zoomCodigo),Math[_0x57b482(0x221)]((transformedY+offsetY)/zoomCodigo),menu,_0x5dbde6,t[menu][_0x5dbde6],![],!![]);codigo[_0x57b482(0x242)](_0x4795cb);if(_0x27547c[_0x57b482(0x1f0)]===_0x57b482(0x204)){let _0x115d56=new Bloque(_0x27547c['x'],_0x27547c['y'],menu,_0x5dbde6+0x1,t[menu][_0x5dbde6+0x1],![],!![]);codigo[_0x57b482(0x242)](_0x115d56),codigo[codigo[_0x57b482(0x223)]-0x1]['anterior']=codigo[codigo[_0x57b482(0x223)]-0x2],codigo[codigo[_0x57b482(0x223)]-0x1]['num']=cont,cont++,codigo[codigo[_0x57b482(0x223)]-0x2][_0x57b482(0x1fe)]=codigo[codigo[_0x57b482(0x223)]-0x1],codigo[codigo['length']-0x2]['num']=cont,cont++,bloqueSeleccionado=codigo[codigo[_0x57b482(0x223)]-0x2];}else bloqueSeleccionado=codigo[codigo[_0x57b482(0x223)]-0x1];bloqueSeleccionado[_0x57b482(0x1f0)]==='WhenRunBlock'&&(bloquesStart[_0x57b482(0x242)](bloqueSeleccionado),bloqueEjecutando=bloqueSeleccionado),bloqueSeleccionado[_0x57b482(0x220)](),codigo[codigo[_0x57b482(0x223)]-0x1][_0x57b482(0x235)]=cont,cont++;}return;}}}if(bloqueEditando!==null)cerrarEdicionTexto();bloqueSeleccionado=seleccionBloque(transformedX,transformedY);if(bloqueSeleccionado!==null)return;for(let _0x4d9ce3 of[...codigoVariables]){if(_0x4d9ce3[_0x57b482(0x238)](transformedXbasico,transformedYbasico,!![])!==null){offsetX=Math['floor'](_0x4d9ce3['x']-transformedXbasico),offsetY=Math[_0x57b482(0x221)](_0x4d9ce3['y']-transformedYbasico);let _0x51c957=new Bloque(transformedX+offsetX,transformedY+offsetY,0x3,0x4,BOTON_VARIABLE,![],!![]);codigo[_0x57b482(0x242)](_0x51c957),codigo[codigo[_0x57b482(0x223)]-0x1][_0x57b482(0x21e)][0x0]=_0x4d9ce3[_0x57b482(0x21e)][0x0],codigo[codigo[_0x57b482(0x223)]-0x1][_0x57b482(0x217)][0x0]=_0x4d9ce3[_0x57b482(0x217)][0x0],codigo[codigo[_0x57b482(0x223)]-0x1][_0x57b482(0x22b)]=_0x4d9ce3,bloqueSeleccionado=codigo[codigo[_0x57b482(0x223)]-0x1],bloqueSeleccionado[_0x57b482(0x220)]();return;}}for(let _0xf6deea of[...botonesVariables]){if(_0xf6deea[_0x57b482(0x238)](transformedXbasico,transformedYbasico,!![])!==null&&menu==0x3){if(_0xf6deea[_0x57b482(0x252)]===!![]){if(_0xf6deea['id']===0x64){let _0x5e1ff0=botonesVariables[_0x57b482(0x241)](_0xf6deea),_0x566cc7=botonesVariables['indexOf'](_0xf6deea['siguiente']);_0x566cc7>-0x1&&botonesVariables[_0x57b482(0x243)](_0x566cc7,0x1);for(let _0x47789a of[...codigo]){let _0x197364=_0x47789a[_0x57b482(0x1f9)](_0xf6deea['padre']);if(_0x197364!==null){let _0x57e7c7=codigo[_0x57b482(0x241)](_0x197364);_0x57e7c7>-0x1&&codigo[_0x57b482(0x243)](_0x57e7c7,0x1);}}let _0x2b48cd=codigoVariables[_0x57b482(0x241)](_0xf6deea[_0x57b482(0x1ef)]);_0x2b48cd>-0x1&&codigoVariables[_0x57b482(0x243)](_0x2b48cd,0x1);let _0x4a4e1a=botonesVariables[_0x57b482(0x241)](_0xf6deea);_0x4a4e1a>-0x1&&botonesVariables[_0x57b482(0x243)](_0x4a4e1a,0x1);altoMenu[0x3]=altoMenu[0x3]-codigoMenu[codigoMenu[_0x57b482(0x223)]-0x1][_0x57b482(0x1eb)]-SEPARACION_BLOQUES_MENU;for(let _0x3a39df=_0x5e1ff0;_0x3a39df<botonesVariables[_0x57b482(0x223)];_0x3a39df=_0x3a39df+0x2){botonesVariables[_0x3a39df]['y']=botonesVariables[_0x3a39df]['y']-Math[_0x57b482(0x221)](botonesVariables[_0x3a39df]['grosorBloque']+SEPARACION_BLOQUES_MENU),botonesVariables[_0x3a39df][_0x57b482(0x1fe)]['y']=botonesVariables[_0x3a39df][_0x57b482(0x1fe)]['y']-Math[_0x57b482(0x221)](botonesVariables[_0x3a39df]['siguiente'][_0x57b482(0x20b)]+SEPARACION_BLOQUES_MENU),botonesVariables[_0x3a39df][_0x57b482(0x1ef)]['y']=botonesVariables[_0x3a39df][_0x57b482(0x1ef)]['y']-Math[_0x57b482(0x221)](botonesVariables[_0x3a39df][_0x57b482(0x1ef)]['grosorBloque']+SEPARACION_BLOQUES_MENU);}return;}else{if(_0xf6deea['id']===0xc8){bloqueEditando=_0xf6deea[_0x57b482(0x1ef)];return;}}}}}let _0x4a4ad0;menu<0x5?_0x4a4ad0=anchoMenu[0x0]+0xa:_0x4a4ad0=anchoMenu[0x5]+0xa,!(mouseX<_0x4a4ad0&&mouseY<altoMenu[menu]||mouseY<0x0)&&(panningCodigo=!![],panStartCodigoX=mouseX,panStartCodigoY=mouseY);}else{if(modo==0x3){transformedXbasico=(mouseX-windowWidth/0x2)/(zoomConfiguracion*escalaBase/1.5),transformedYbasico=(mouseY-windowHeight/0x2)/(zoomConfiguracion*escalaBase/1.5);if(dist(transformedXbasico,transformedYbasico,-0x6b,0x10a)<0xa){elemento[0x4][_0x57b482(0x1f5)]=0xff;return;}if(dist(transformedXbasico,transformedYbasico,0xe0,0x21)<0xa){elemento[0x6][_0x57b482(0x1f5)]=0xff;return;}if(transformedYbasico>0x10e&&transformedYbasico<0x118){if(transformedXbasico>0x28&&transformedXbasico<0x32&&ejecutando==!![]){botonStop();return;}else{if(transformedXbasico>0x4b&&transformedXbasico<0x55&&ejecutando==![]){botonPlay();return;}}}if(transformedXbasico>ULTRASONIC_X-ANCHO_ULTRASONIC/0x2&&transformedXbasico<ULTRASONIC_X+ANCHO_ULTRASONIC/0x2&&transformedYbasico>ULTRASONIC_Y-ALTO_ULTRASONIC/0x2&&transformedYbasico<ULTRASONIC_Y+ALTO_ULTRASONIC/0x2){robot['ultrasonidosConectado']=!![];return;}else{if(transformedXbasico>ULTRASONIDOS_X-ANCHO_ULTRASONIDOS/0x2&&transformedXbasico<ULTRASONIDOS_X+ANCHO_ULTRASONIDOS/0x2&&transformedYbasico>ULTRASONIDOS_Y-ALTO_ULTRASONIDOS/0x2&&transformedYbasico<ULTRASONIDOS_Y+ALTO_ULTRASONIDOS/0x2){robot[_0x57b482(0x1ec)]=![];return;}}for(let _0x3fea28=0x0;_0x3fea28<jumpers['length'];_0x3fea28++){let _0x213d43=jumpers[_0x3fea28];jumperSeleccionado=_0x213d43[_0x57b482(0x20a)](transformedXbasico,transformedYbasico);if(jumperSeleccionado!=null)return;}for(let _0x73d51d=0x0;_0x73d51d<conector[_0x57b482(0x223)];_0x73d51d++){let _0x3658a1=conector[_0x73d51d];conectorSeleccionado=_0x3658a1['desconectar'](transformedXbasico,transformedYbasico);if(conectorSeleccionado!=null)return;}}else{if(modo==0x6){let _0x43171a=mouseX/escalaBase,_0x5d773a=mouseY/escalaBase+offsetYBarra;for(let _0x294dfc=0x0;_0x294dfc<thumbnails[_0x57b482(0x223)];_0x294dfc++){_0x43171a>=xPos[_0x294dfc]&&_0x43171a<=xPos[_0x294dfc]+anchoThumbnail&&_0x5d773a>=yPos[_0x294dfc]&&_0x5d773a<=yPos[_0x294dfc]+altoThumbnail&&(indiceTapeteSeleccionado=_0x294dfc,shapeCargado=![],nombreFondo=archivosSVG[_0x294dfc],cargarFondo());}if(totalThumbnailsHeight>windowHeight){let _0x2bfeeb=windowWidth-0x28;mouseX>=_0x2bfeeb&&mouseX<=_0x2bfeeb+0x14&&mouseY>=0x3c&&mouseY<=windowHeight-0x28&&(arrastrandoScroll=!![],clickScrollY=mouseY,scrollOffsetInicial=offsetYBarra);}indiceTapeteSeleccionado=-0x1;}}}}}else mouseButton===RIGHT&&(modo===0x4&&(transformedX=Math[_0x57b482(0x221)]((mouseX-windowWidth/0x2)/(zoomCodigo*escalaBase)-panCodigoX),transformedY=Math[_0x57b482(0x221)]((mouseY-windowHeight/0x2)/(zoomCodigo*escalaBase)-panCodigoY),bloqueSeleccionado=seleccionBloque(transformedX,transformedY),bloqueSeleccionado!==null&&(desplegableBloque=!![],xDesplegable=mouseX,yDesplegable=mouseY)));}function a0_0xdefc(_0x49246f,_0x2cf89c){_0x49246f=_0x49246f-0x1ea;const _0x3d60a3=a0_0x3d60();let _0xdefc5b=_0x3d60a3[_0x49246f];return _0xdefc5b;}function seleccionBloque(_0x1625cf,_0x1a6240){const _0x467fe0=a0_0xdefc;for(let _0x48840f of codigo){_0x48840f[_0x467fe0(0x1f0)]!==_0x467fe0(0x233)&&(bloqueSeleccionado=_0x48840f[_0x467fe0(0x238)](_0x1625cf,_0x1a6240,!![]));if(bloqueSeleccionado!=null){bloqueSeleccionado['nombre']===_0x467fe0(0x247)&&(bloqueStartSeleccionado=bloqueSeleccionado);offsetX=_0x48840f['x']-_0x1625cf,offsetY=_0x48840f['y']-_0x1a6240;bloqueSeleccionado[_0x467fe0(0x222)]===!![]&&(bloqueSeleccionado=bloqueSeleccionado[_0x467fe0(0x206)](_0x1625cf,_0x1a6240));if(bloqueSeleccionado!=null){bloqueSeleccionado[_0x467fe0(0x220)](),offsetX=bloqueSeleccionado['x']-_0x1625cf,offsetY=bloqueSeleccionado['y']-_0x1a6240;if(bloqueEditando!=null)cerrarEdicionTexto();inicioDesplazarBloque=!![],mouseOrigenX=mouseX,mouseOrigenY=mouseY;}break;}}return bloqueSeleccionado;}function mouseDragged(){const _0x207492=a0_0xdefc;if(modo==0x5){if(panningSimulacion){panSimulacionX+=(mouseX-panStartSimulacionX)/(zoomSimulacion*escalaBase),panSimulacionY+=(mouseY-panStartSimulacionY)/(zoomSimulacion*escalaBase),panStartSimulacionX=mouseX,panStartSimulacionY=mouseY;return;}transformedX=(mouseX-windowWidth/0x2)/(zoomSimulacion*escalaBase)-panSimulacionX,transformedY=(mouseY-windowHeight/0x2)/(zoomSimulacion*escalaBase)-panSimulacionY,transformedObstaculoX=transformedX+robotFisico[_0x207492(0x245)][_0x207492(0x201)]['x'],transformedObstaculoY=transformedY+robotFisico[_0x207492(0x245)][_0x207492(0x201)]['y'];if(obstaculoSeleccionado!=null){if(obstaculoSeleccionado['modoTransformacion']==0x1){let _0x29b574=atan2(transformedObstaculoY-obstaculoSeleccionado[_0x207492(0x245)]['position']['y'],transformedObstaculoX-obstaculoSeleccionado[_0x207492(0x245)]['position']['x']);obstaculoSeleccionado[_0x207492(0x245)][_0x207492(0x231)]=_0x29b574-offsetAngulo;}else{let _0x65c908=(mouseX-pmouseX)/(zoomSimulacion*escalaBase),_0x56271d=(mouseY-pmouseY)/(zoomSimulacion*escalaBase),_0x111189=cos(-obstaculoSeleccionado['body'][_0x207492(0x231)]),_0x268d98=sin(-obstaculoSeleccionado[_0x207492(0x245)][_0x207492(0x231)]),_0x1c7fba=_0x65c908*_0x111189-_0x56271d*_0x268d98,_0x463b4e=_0x65c908*_0x268d98+_0x56271d*_0x111189;if(obstaculoSeleccionado[_0x207492(0x21a)]==0x2)obstaculoSeleccionado[_0x207492(0x234)](_0x1c7fba*0x2);else{if(obstaculoSeleccionado[_0x207492(0x21a)]==0x3)obstaculoSeleccionado[_0x207492(0x234)](-_0x1c7fba*0x2);else{if(obstaculoSeleccionado[_0x207492(0x21a)]==0x4)obstaculoSeleccionado[_0x207492(0x253)](_0x463b4e*0x2);else obstaculoSeleccionado[_0x207492(0x21a)]==0x5&&obstaculoSeleccionado['alargar'](-_0x463b4e*0x2);}}}return;}else{if(obstaculoDesplazando!=null){RectX=transformedX+offsetX,RectY=transformedY+offsetY;return;}else{if(desplazandoBulb){bulbX=transformedX+offsetX,bulbY=transformedY+offsetY;return;}else{if(robotSeleccionado){if(Crono>0x0)movidoDuranteEjecucion=!![];angleDragged=atan2(transformedY,transformedX)-offsetAngulo,robotFisico['body'][_0x207492(0x231)]=atan2(transformedY,transformedX)-offsetAngulo;}else{if(desplazandoRobot==!![]){movidoDuranteEjecucion=!![],CrumX=transformedX+offsetX,CrumY=transformedY+offsetY;(robotFisico[_0x207492(0x245)]['position']['x']<-anchoMundo/2.5||robotFisico[_0x207492(0x245)]['position']['x']>anchoMundo/2.5||robotFisico[_0x207492(0x245)][_0x207492(0x201)]['y']<-altoMundo/2.5||robotFisico[_0x207492(0x245)][_0x207492(0x201)]['y']>altoMundo/2.5)&&(desplazandoRobot=![],Matter[_0x207492(0x24a)][_0x207492(0x209)](robotFisico[_0x207492(0x245)],{'x':0x0,'y':0x0}),mensaje=_0x207492(0x20e),inicioMensaje=millis());return;}}}}}}else{if(modo==0x4){if(colorPickerOpen)return;if(panningCodigo)panCodigoX+=(mouseX-panStartCodigoX)/(zoomCodigo*escalaBase),panCodigoY+=(mouseY-panStartCodigoY)/(zoomCodigo*escalaBase),panStartCodigoX=mouseX,panStartCodigoY=mouseY;else{if(inicioDesplazarBloque==!![]&&(mouseOrigenX!=mouseX||mouseOrigenY!=mouseY)){if(bloqueSeleccionado[_0x207492(0x230)]=='_')desconectar(bloqueSeleccionado);else{if(bloqueSeleccionado[_0x207492(0x1ef)]!=null)for(let _0x2b4d8d=0x0;_0x2b4d8d<bloqueSeleccionado['padre'][_0x207492(0x239)][_0x207492(0x223)];_0x2b4d8d++){if(bloqueSeleccionado==bloqueSeleccionado[_0x207492(0x1ef)]['subBloque'][_0x2b4d8d]){bloqueSeleccionado[_0x207492(0x1ef)][_0x207492(0x239)][_0x2b4d8d]=null,bloqueSeleccionado[_0x207492(0x1ef)][_0x207492(0x256)][_0x2b4d8d]=bloqueSeleccionado[_0x207492(0x1ef)]['calculoAnchoDato'](bloqueSeleccionado['padre']['dato'][_0x2b4d8d]),bloqueSeleccionado[_0x207492(0x1ef)][_0x207492(0x250)](),bloqueSeleccionado[_0x207492(0x1ef)]['calculoGrosorBucle'](),bloqueSeleccionado[_0x207492(0x1ef)][_0x207492(0x24d)]();bloqueSeleccionado[_0x207492(0x1ef)]['padre']!=null&&(bloqueSeleccionado[_0x207492(0x1ef)][_0x207492(0x1ef)][_0x207492(0x23c)](),bloqueSeleccionado['padre']['padre']['actualizarCoordenadas']());break;}}}bloqueSeleccionado['seleccionBloquesDependientes'](),inicioDesplazarBloque=![];return;}else{if(bloqueSeleccionado!=null&&codigo!=null){transformedX=Math[_0x207492(0x221)]((mouseX-windowWidth/0x2)/(zoomCodigo*escalaBase)-panCodigoX),transformedY=Math[_0x207492(0x221)]((mouseY-windowHeight/0x2)/(zoomCodigo*escalaBase)-panCodigoY),bloqueSeleccionado['x']=transformedX+offsetX,bloqueSeleccionado['y']=transformedY+offsetY;bloqueSeleccionado['tipo']=='_'&&bloqueSeleccionado[_0x207492(0x24d)]();seleccion=null,seleccion2=null,seleccion3=null;for(let _0x510fca of codigo){seleccion=_0x510fca['colision'](bloqueSeleccionado['x'],bloqueSeleccionado['y'],!![]);if(seleccion!=null){(bloqueSeleccionado[_0x207492(0x230)]=='o'||bloqueSeleccionado[_0x207492(0x230)]=='h')&&(seleccion2=seleccion[_0x207492(0x23d)](bloqueSeleccionado['x'],bloqueSeleccionado['y'],bloqueSeleccionado['tipo']));break;}if(bloqueSeleccionado[_0x207492(0x230)]=='_'){seleccion3=_0x510fca[_0x207492(0x238)](bloqueSeleccionado['x'],bloqueSeleccionado['y'],![]);if(seleccion3!=null){seleccion3[_0x207492(0x1f0)]===_0x207492(0x204)&&(seleccion3=null);break;}}}}}}}else{if(modo===0x3){transformedXbasico=Math[_0x207492(0x221)]((mouseX-windowWidth/0x2)/(zoomConfiguracion*escalaBase/1.5)),transformedYbasico=Math[_0x207492(0x221)]((mouseY-windowHeight/0x2)/(zoomConfiguracion*escalaBase/1.5));if(jumperSeleccionado!=null){jumperSeleccionado['x']=transformedXbasico+offsetX,jumperSeleccionado['y']=transformedYbasico+offsetY;return;}else{if(conectorSeleccionado!=null){conectorSeleccionado['x']=transformedXbasico+offsetX,conectorSeleccionado['y']=transformedYbasico+offsetY;return;}}}else{if(modo==0x6){if(draggingScrollBar){let _0x2211a5=mouseY-dragStartY,_0x161c80=totalThumbnailsHeight-(windowHeight/escalaBase-0x64);offsetYBarra=constrain(offsetYBarra+_0x2211a5,0x0,_0x161c80),dragStartY=mouseY;}}}}}}function mouseReleased(){const _0x58c385=a0_0xdefc;if(modo==0x5){panningSimulacion=![],desplazandoBulb=![],elemento[0x4][_0x58c385(0x1f5)]=0x0,elemento[0x6][_0x58c385(0x1f5)]=0x0;if(obstaculoDesplazando!=null){mouseX==mouseOrigenX&&mouseY==mouseOrigenY?(obstaculoSeleccionado=obstaculoDesplazando,obstaculoSeleccionado[_0x58c385(0x257)]=!![]):obstaculoDesplazando[_0x58c385(0x245)][_0x58c385(0x257)]=obstaculoDesplazando['estatico'];Matter[_0x58c385(0x24a)][_0x58c385(0x209)](obstaculoDesplazando['body'],{'x':RectX,'y':RectY}),obstaculoDesplazando=null;return;}if(desplazandoRobot){if(mouseX==mouseOrigenX&&mouseX==mouseOrigenX)robotSeleccionado=!![];Matter[_0x58c385(0x24a)]['setPosition'](robotFisico[_0x58c385(0x245)],{'x':CrumX,'y':CrumY}),robotFisico[_0x58c385(0x245)][_0x58c385(0x257)]=![],desplazandoRobot=![];return;}robotSeleccionado&&(robotFisico[_0x58c385(0x245)][_0x58c385(0x257)]=![],robotSeleccionado=![]),desplazandoBulb&&(desplazandoBulb=![]);}else{if(modo==0x3)elemento[0x4][_0x58c385(0x1f5)]=0x0,elemento[0x6][_0x58c385(0x1f5)]=0x0,jumperSeleccionado!=null&&(jumperSeleccionado[_0x58c385(0x23a)](),jumperSeleccionado=null),conectorSeleccionado!=null&&(conectorSeleccionado[_0x58c385(0x23a)](),conectorSeleccionado=null);else{if(modo==0x4){panningCodigo=![],desplazandoVentanaColor=![];if(bloqueSeleccionado!=null){transformedXbasico=Math['floor'](mouseX+offsetX),transformedYbasico=Math['floor'](mouseY+offsetY);let _0x190feb;menu<0x5?_0x190feb=anchoMenu[0x0]+0xa:_0x190feb=anchoMenu[0x5]+0xa;if(transformedXbasico<_0x190feb+0x5&&transformedYbasico<(altoMenu[menu]+0x5)*escalaBase||transformedYbasico<ALTO_MENU_SUPERIOR){if(bloqueSeleccionado[_0x58c385(0x1f0)]===_0x58c385(0x247)){let _0x53d2d3=-0x1;for(let _0xaa8a4c=0x0;_0xaa8a4c<bloquesStart[_0x58c385(0x223)];_0xaa8a4c++){if(bloquesStart[_0xaa8a4c]===bloqueSeleccionado){_0x53d2d3=_0xaa8a4c;break;}}_0x53d2d3>-0x1&&bloquesStart[_0x58c385(0x243)](_0x53d2d3,0x1);}eliminarBloques(),bloquesSeleccionados=[];}else{if(inicioDesplazarBloque==![]){bloqueSeleccionado[_0x58c385(0x1f0)]===_0x58c385(0x247)&&(bloqueStartSeleccionado=bloqueSeleccionado);if(seleccion3!=null&&seleccion3!=undefined&&seleccion3[_0x58c385(0x1f0)]!=_0x58c385(0x227))conectar(bloqueSeleccionado,seleccion3,![]),seleccion3=null;else{if(seleccion2!=null&&seleccion2!=undefined&&bloqueSeleccionado['tipo']==seleccion2[_0x58c385(0x24b)][seleccionSubBloque])seleccion2[_0x58c385(0x226)](seleccionSubBloque,bloqueSeleccionado),seleccion2=null;else seleccion!=null&&seleccion!=undefined&&seleccion[_0x58c385(0x230)]=='_'&&bloqueSeleccionado[_0x58c385(0x230)]=='_'&&(conectar(bloqueSeleccionado,seleccion,!![]),seleccion=null);}}}!desplegableBloque&&(bloqueSeleccionado=null,bloquesSeleccionados=[]);}}else modo==0x6&&(draggingScrollBar=![]);}}}function keyPressed(){const _0x16a78f=a0_0xdefc;if(modo==0x5){if(key=='\x20'){ejecutando?botonStop():botonPlay();return;}if(key=='r'||key=='R'){botonReset();return;}if(keyCode===0x1b){}if(key==DELETE||key==BACKSPACE){if(obstaculoSeleccionado!=null){let _0x19c10f=obstaculo['indexOf'](obstaculoSeleccionado);_0x19c10f>-0x1&&(obstaculoSeleccionado[_0x16a78f(0x208)](),obstaculo[_0x16a78f(0x243)](_0x19c10f,0x1),obstaculoInicio[_0x16a78f(0x243)](_0x19c10f,0x1),obstaculoSeleccionado=null,movidoDuranteEjecucion=!![]);}return;}}else{if(modo==0x4){if(modo==0x4&&bloqueEditando!=null&&colorPickerOpen==![]){if(keyCode==BACKSPACE)textoTemporal['length']>0x0&&(textoTemporal=textoTemporal[_0x16a78f(0x1ea)](0x0,textoTemporal[_0x16a78f(0x223)]-0x1));else{if(keyCode==ENTER||keyCode==RETURN||keyCode==ESCAPE)cerrarEdicionTexto();else{if(textoTemporal[_0x16a78f(0x223)]<maximoCaracteres){if(bloqueEditando[_0x16a78f(0x1f0)]!=_0x16a78f(0x248))(key>='0'&&key<='9'||key=='.'||key=='-')&&(textoTemporal+=key);else(key>='0'&&key<='9'||key>='a'&&key<='z'||key>='A'&&key<='Z'||key==='.'||key==='-')&&(textoTemporal+=key);}}}return;}if(keyCode==DELETE||keyCode==BACKSPACE){bloqueSeleccionado2!=null&&(eliminarBloque(bloqueSeleccionado2),bloqueSeleccionado2=null,xDesplegable=-0x64,yDesplegable=-0x64);return;}if(keyCode==0x3d&&(keyIsDown(CONTROL)||keyIsDown(0x5b))){zoomCodigo=min(zoomCodigo+0.1,0x3);return;}if(keyCode==0xad&&(keyIsDown(CONTROL)||keyIsDown(0x5b))){zoomCodigo=max(zoomCodigo-0.1,0.5);return;}}}}function eliminarBloques(){for(let _0xf1a5d4 of bloquesSeleccionados)_0xf1a5d4['eliminarBloque']();}function cerrarEdicionTexto(){const _0xb85d74=a0_0xdefc;if(!(bloqueEditando['categoria']===0x3&&bloqueEditando['id']>0x3)){if(esNumeroReal(textoTemporal)){let _0x44b02b=parseFloat(textoTemporal);if(bloqueEditando[_0xb85d74(0x1f0)]==='MotorBlock'){if(_0x44b02b>0x64)_0x44b02b=0x64;else{if(_0x44b02b<0x0)_0x44b02b=0x0;}}else{if(bloqueEditando[_0xb85d74(0x1f0)]===_0xb85d74(0x21b)||bloqueEditando[_0xb85d74(0x1f0)]===_0xb85d74(0x240)){if(_0x44b02b>0x5a)_0x44b02b=0x5a;else{if(_0x44b02b<-0x5a)_0x44b02b=-0x5a;}}else{if(bloqueEditando['nombre']===_0xb85d74(0x24f)||bloqueEditando[_0xb85d74(0x1f0)]==='TurnSprakleOffBlock'||bloqueEditando['nombre']==='SetSprakleRGBBlock'&&subBloqueEditando===0x0){if(_0x44b02b>0x1f)_0x44b02b=0x1f;else{if(_0x44b02b<0x0)_0x44b02b=0x0;}}else{if(bloqueEditando['nombre']==='SetSprakleRGBBlock'&&(subBloqueEditando===0x1||subBloqueEditando===0x2||subBloqueEditando===0x3)||bloqueEditando['nombre']===_0xb85d74(0x22d)){if(_0x44b02b>0xff)_0x44b02b=0xff;else{if(_0x44b02b<0x0)_0x44b02b=0x0;}}else{if(bloqueEditando[_0xb85d74(0x1f0)]===_0xb85d74(0x21c)||bloqueEditando['nombre']===_0xb85d74(0x22c)||bloqueEditando[_0xb85d74(0x1f0)]===_0xb85d74(0x1f3)){if(_0x44b02b>0x7fff)_0x44b02b=0x7fff;else{if(_0x44b02b<0x0)_0x44b02b=0x0;}}else{if(bloqueEditando[_0xb85d74(0x1f0)]==='AddBlock'||bloqueEditando[_0xb85d74(0x1f0)]===_0xb85d74(0x23f)||bloqueEditando[_0xb85d74(0x1f0)]===_0xb85d74(0x1fa)||bloqueEditando[_0xb85d74(0x1f0)]===_0xb85d74(0x1fd)){if(_0x44b02b>0x7fff)_0x44b02b=0x7fff;else{if(_0x44b02b<0x0)_0x44b02b=0x0;}}else{if(bloqueEditando[_0xb85d74(0x1f0)]===_0xb85d74(0x211)||bloqueEditando[_0xb85d74(0x1f0)]===_0xb85d74(0x202)||bloqueEditando[_0xb85d74(0x1f0)]==='LessThanBlock'||bloqueEditando['nombre']===_0xb85d74(0x1ee)||bloqueEditando[_0xb85d74(0x1f0)]===_0xb85d74(0x224)){if(_0x44b02b>0x7fff)_0x44b02b=0x7fff;else{if(_0x44b02b<0x0)_0x44b02b=0x0;}}else{if(bloqueEditando[_0xb85d74(0x1f0)]===_0xb85d74(0x1f1)){if(_0x44b02b>0x7fff)_0x44b02b=0x7fff;else{if(_0x44b02b<0x0)_0x44b02b=0x0;}}else{if(bloqueEditando['nombre']===_0xb85d74(0x205)){if(_0x44b02b>0x4e20)_0x44b02b=0x4e20;else{if(_0x44b02b<0x0)_0x44b02b=0x0;}}else{if(bloqueEditando[_0xb85d74(0x1f0)]==='SetTempoBlock'){if(_0x44b02b>0x12c)_0x44b02b=0x12c;else{if(_0x44b02b<0x0)_0x44b02b=0x0;}}}}}}}}}}}bloqueEditando[_0xb85d74(0x1f0)]===_0xb85d74(0x21c)?textoTemporal=String(_0x44b02b):textoTemporal=String(Math[_0xb85d74(0x221)](_0x44b02b)),bloqueEditando['dato'][subBloqueEditando]=textoTemporal,bloqueEditando[_0xb85d74(0x256)][subBloqueEditando]=bloqueEditando[_0xb85d74(0x246)](bloqueEditando[_0xb85d74(0x1fb)][subBloqueEditando]),bloqueEditando['calculoDimensiones']();}}else{if(textoTemporal['replace'](/ /g,'')['length']>0x0){bloqueEditando[_0xb85d74(0x21e)][0x0]=textoTemporal,bloqueEditando[_0xb85d74(0x217)][0x0]=bloqueEditando[_0xb85d74(0x246)](bloqueEditando[_0xb85d74(0x21e)][0x0]),bloqueEditando[_0xb85d74(0x250)](),bloqueEditando['siguiente']['x']=bloqueEditando['x']+bloqueEditando[_0xb85d74(0x215)]+0xa,bloqueEditando[_0xb85d74(0x1fe)][_0xb85d74(0x1fe)]['x']=bloqueEditando[_0xb85d74(0x1fe)]['x']+bloqueEditando[_0xb85d74(0x1fe)][_0xb85d74(0x215)]+0xa;let _0x1ab59e=bloqueEditando[_0xb85d74(0x1fe)][_0xb85d74(0x1fe)];_0x1ab59e['x']+_0x1ab59e['ancho']+0x5>anchoMenu[0x3]&&(anchoMenu[0x3]=_0x1ab59e['x']+_0x1ab59e['ancho']+0x5);for(let _0x23ddaa of codigo){_0x23ddaa[_0xb85d74(0x1fc)](bloqueEditando);}}}bloqueEditando=null,textoTemporal='';}function mouseWheel(_0x53d108){const _0x3b1db7=a0_0xdefc;if(modo==0x5){let _0x2a02ef=1.1,_0x4e08c5=(mouseX-windowWidth/0x2)/(zoomSimulacion*escalaBase)-panSimulacionX,_0x38ccdc=(mouseY-windowHeight/0x2)/(zoomSimulacion*escalaBase)-panSimulacionY;_0x53d108['delta']>0x0?zoomSimulacion/=_0x2a02ef:zoomSimulacion*=_0x2a02ef;zoomSimulacion=constrain(zoomSimulacion,0.1,0x3);let _0x4ad490=(mouseX-windowWidth/0x2)/(zoomSimulacion*escalaBase)-panSimulacionX,_0x4d1772=(mouseY-windowHeight/0x2)/(zoomSimulacion*escalaBase)-panSimulacionY;panSimulacionX+=_0x4ad490-_0x4e08c5,panSimulacionY+=_0x4d1772-_0x38ccdc;}else{if(modo==0x4){let _0x4150d1=1.1,_0x2ce061=(mouseX-windowWidth/0x2)/(zoomCodigo*escalaBase)-panCodigoX,_0x1078fc=(mouseY-windowHeight/0x2)/(zoomCodigo*escalaBase)-panCodigoY;_0x53d108[_0x3b1db7(0x213)]>0x0?zoomCodigo/=_0x4150d1:zoomCodigo*=_0x4150d1;zoomCodigo=constrain(zoomCodigo,0.5,0x3);let _0x364f62=(mouseX-windowWidth/0x2)/(zoomCodigo*escalaBase)-panCodigoX,_0x28b5af=(mouseY-windowHeight/0x2)/(zoomCodigo*escalaBase)-panCodigoY;panCodigoX+=_0x364f62-_0x2ce061,panCodigoY+=_0x28b5af-_0x1078fc;}else{if(modo==0x6){offsetYBarra+=_0x53d108[_0x3b1db7(0x213)]*0.5;let _0x3f95c4=totalThumbnailsHeight-(windowHeight/escalaBase-0x64);offsetYBarra=constrain(offsetYBarra,0x0,_0x3f95c4);}}}return![];}function cargarFondo(){const _0x26a59f=a0_0xdefc;loadImage(_0x26a59f(0x24e)+nombreFondo,_0x315801=>{const _0x64079f=_0x26a59f;anchoTapete=_0x315801[_0x64079f(0x254)],altoTapete=_0x315801[_0x64079f(0x20f)],fondo=createGraphics(anchoTapete,altoTapete),fondo['pixelDensity'](0x1),fondo[_0x64079f(0x22a)](0xff),laterales[_0x64079f(0x242)](new Obstaculo(0x0,-altoTapete/0x2-0xa,anchoTapete+0x28,0x14,0x0,!![])),laterales['push'](new Obstaculo(0x0,altoTapete/0x2+0xa,anchoTapete+0x28,0x14,0x0,!![])),laterales[_0x64079f(0x242)](new Obstaculo(-anchoTapete/0x2-0xa,0x0,0x14,altoTapete,0x0,!![])),laterales[_0x64079f(0x242)](new Obstaculo(anchoTapete/0x2+0xa,0x0,0x14,altoTapete,0x0,!![])),fondo[_0x64079f(0x237)](_0x315801,0x0,0x0,anchoTapete,altoTapete),Matter[_0x64079f(0x24a)][_0x64079f(0x209)](laterales[0x0][_0x64079f(0x245)],{'x':0x0,'y':-altoTapete/0x2-0xa}),laterales[0x0][_0x64079f(0x1ed)](anchoTapete+0x28,0x14),Matter[_0x64079f(0x24a)][_0x64079f(0x209)](laterales[0x1][_0x64079f(0x245)],{'x':0x0,'y':altoTapete/0x2+0xa}),laterales[0x1][_0x64079f(0x1ed)](anchoTapete+0x28,0x14),Matter['Body']['setPosition'](laterales[0x2][_0x64079f(0x245)],{'x':-anchoTapete/0x2-0xa,'y':0x0}),laterales[0x2][_0x64079f(0x1ed)](0x14,altoTapete),Matter[_0x64079f(0x24a)][_0x64079f(0x209)](laterales[0x3][_0x64079f(0x245)],{'x':anchoTapete/0x2+0xa,'y':0x0}),laterales[0x3]['setSize'](0x14,altoTapete),modo=0x5;return;});}function botonPlay(){const _0x2a0734=a0_0xdefc;if(modo==0x5&&!ejecutando){ejecutando=!![],inicioCrono=millis(),bloqueEjecutando=bloqueStartSeleccionado;for(let _0x4d64a4 of codigoVariables){_0x4d64a4[_0x2a0734(0x1fb)][0x0]='0',_0x4d64a4[_0x2a0734(0x249)]=0x0;}}}function botonStop(){ejecutando=![],bloqueEjecutando=null,isBeeping=![];}function botonReiniciar(){const _0xe0fbfb=a0_0xdefc;for(let _0x538437 of codigoVariables){_0x538437['dato'][0x0]='0',_0x538437['valorNumerico']=0x0;}Matter[_0xe0fbfb(0x24a)][_0xe0fbfb(0x209)](robotFisico[_0xe0fbfb(0x245)],{'x':robotFisico[_0xe0fbfb(0x251)],'y':robotFisico[_0xe0fbfb(0x228)]}),robotFisico['body'][_0xe0fbfb(0x231)]=robotFisico['anguloInicio'];if(obstaculo){for(let _0x247624=obstaculo[_0xe0fbfb(0x223)]-0x1;_0x247624>=0x0;_0x247624--){obstaculo[_0x247624]&&obstaculo[_0x247624][_0xe0fbfb(0x208)]&&obstaculo[_0x247624][_0xe0fbfb(0x208)]();}obstaculo[_0xe0fbfb(0x223)]=0x0;if(obstaculoInicio!=null)for(let _0x257272=0x0;_0x257272<obstaculoInicio[_0xe0fbfb(0x223)];_0x257272++){let _0x462feb=obstaculoInicio[_0x257272];if(_0x462feb){let _0x46c620=new Obstaculo(_0x462feb['x'],_0x462feb['y'],_0x462feb[_0xe0fbfb(0x215)],_0x462feb[_0xe0fbfb(0x236)],_0x462feb['angulo'],_0x462feb[_0xe0fbfb(0x22f)]);obstaculo[_0xe0fbfb(0x242)](_0x46c620),Body[_0xe0fbfb(0x210)](obstaculo,0x0),Body[_0xe0fbfb(0x1f2)](obstaculo,0x0);}}}bloqueEjecutando=bloqueStartSeleccionado,movidoDuranteEjecucion=![],esperarUnCiclo=![],saltoIfElse=![],miliSegundos=0x0,Crono=0x0,Distancia=0x0,robotFisico['potMotor'][0x0]=0x0,robotFisico[_0xe0fbfb(0x200)][0x1]=0x0,Body[_0xe0fbfb(0x210)](robotFisico[_0xe0fbfb(0x245)],{'x':0x0,'y':0x0}),Body[_0xe0fbfb(0x1f2)](robotFisico[_0xe0fbfb(0x245)],0x0),isBeeping=![];for(let _0x7b20f6=0x0;_0x7b20f6<colorLED['length'];_0x7b20f6++){colorLED[_0x7b20f6]=null;}for(let _0x537641 of codigoVariables){_0x537641[_0xe0fbfb(0x1fb)][0x0]='0';}}
-=======
-(function(_0x5d84b1,_0x388208){const _0x10071b=a0_0x3b33,_0xbdaf4e=_0x5d84b1();while(!![]){try{const _0x24c6e3=-parseInt(_0x10071b(0x136))/0x1+parseInt(_0x10071b(0x13f))/0x2*(parseInt(_0x10071b(0x11c))/0x3)+parseInt(_0x10071b(0x170))/0x4+-parseInt(_0x10071b(0x11e))/0x5+parseInt(_0x10071b(0x168))/0x6*(parseInt(_0x10071b(0x14d))/0x7)+parseInt(_0x10071b(0x162))/0x8*(parseInt(_0x10071b(0x13e))/0x9)+parseInt(_0x10071b(0x164))/0xa*(-parseInt(_0x10071b(0x163))/0xb);if(_0x24c6e3===_0x388208)break;else _0xbdaf4e['push'](_0xbdaf4e['shift']());}catch(_0x58bb08){_0xbdaf4e['push'](_0xbdaf4e['shift']());}}}(a0_0x25b8,0x49a31));function mousePressed(){const _0x59cedb=a0_0x3b33;if(mouseButton===LEFT){transformedXbasico=mouseX/escalaBase,transformedYbasico=mouseY/escalaBase;for(let _0x58aa90=0x3;_0x58aa90<numBotones-0x2;_0x58aa90++){if(transformedXbasico>xBoton[_0x58aa90]-boton[_0x58aa90][_0x59cedb(0x10f)]/0x2&&transformedXbasico<xBoton[_0x58aa90]+boton[_0x58aa90][_0x59cedb(0x10f)]/0x2&&transformedYbasico>yBoton[_0x58aa90]-boton[_0x58aa90][_0x59cedb(0x10f)]/0x2&&transformedYbasico<yBoton[_0x58aa90]+boton[_0x58aa90][_0x59cedb(0x173)]/0x2){if(modo!==_0x58aa90){modo=_0x58aa90;return;}}}let _0x1e5cac=0x0;if(transformedXbasico>xBoton[0x6]-ANCHO_BOTON/0x2&&transformedXbasico<xBoton[0x6]+ANCHO_BOTON/0x2&&transformedYbasico>yBoton[0x6]-ANCHO_BOTON/0x2&&transformedYbasico<yBoton[0x6]+ANCHO_BOTON/0x2)_0x1e5cac=-0.25;else transformedXbasico>xBoton[0x7]-ANCHO_BOTON/0x2&&transformedXbasico<xBoton[0x7]+ANCHO_BOTON/0x2&&transformedYbasico>yBoton[0x7]-ANCHO_BOTON/0x2&&transformedYbasico<yBoton[0x7]+ANCHO_BOTON/0x2&&(_0x1e5cac=0.25);if(_0x1e5cac!==0x0){if(modo===0x3)zoomConfiguracion=zoomConfiguracion+_0x1e5cac,zoomConfiguracion=constrain(zoomConfiguracion,0x1,1.5);else{if(modo===0x4)zoomCodigo=zoomCodigo+_0x1e5cac,zoomCodigo=constrain(zoomCodigo,0.5,1.5);else modo===0x5&&(zoomSimulacion=zoomSimulacion+_0x1e5cac,zoomSimulacion=constrain(zoomSimulacion,0.25,1.5),robot[_0x59cedb(0x157)]===!![]&&(radio=0x0,bufferEfectos['clear']()));}return;}for(let _0x4df87c=0x0;_0x4df87c<0x3;_0x4df87c++){if(transformedXbasico>xBoton[_0x4df87c]-ANCHO_BOTON/0x2&&transformedXbasico<xBoton[_0x4df87c]+ANCHO_BOTON/0x2&&transformedYbasico>yBoton[_0x4df87c]-ANCHO_BOTON/0x2&&transformedYbasico<yBoton[_0x4df87c]+ANCHO_BOTON/0x2){robot[_0x59cedb(0x157)]===!![]&&(radio=0x0,bufferEfectos[_0x59cedb(0x13a)]());if(_0x4df87c===0x0)botonPlay();else{if(_0x4df87c===0x1)botonStop();else{if(_0x4df87c===0x2)botonReiniciar();}}return;}}if(modo==0x5){if(dist(mouseX,mouseY,windowWidth-0x9b,windowHeight/0x2-0x28)<0xa){elemento[0x4][_0x59cedb(0x15e)]=0xff;return;}if(dist(mouseX,mouseY,windowWidth-0x4b,windowHeight/0x2-0x28)<0xa){elemento[0x6]['valorElemento']=0xff;return;}if(transformedXbasico>windowWidth/0x2-anchoBulb/0x2&&transformedXbasico<windowWidth/0x2+anchoBulb/0x2&&transformedYbasico>windowHeight-0x64-bulb['height']/0x2&&transformedYbasico<windowHeight-0x64+bulb[_0x59cedb(0x173)]/0x2){bulbX=windowWidth/0x2-robotFisico['body']['position']['x'],bulbY=windowHeight-0x64-robotFisico['body']['position']['y'],offsetX=bulbX-transformedXbasico,offsetY=bulbY-transformedYbasico,desplazandoBulb=!![];return;}transformedX=(mouseX-windowWidth/0x2)/(zoomSimulacion*escalaBase)-panSimulacionX,transformedY=(mouseY-windowHeight/0x2)/(zoomSimulacion*escalaBase)-panSimulacionY,transformedObstaculoX=(mouseX-windowWidth/0x2)/(zoomSimulacion*escalaBase)-panSimulacionX+robotFisico[_0x59cedb(0x158)][_0x59cedb(0x122)]['x'],transformedObstaculoY=(mouseY-windowHeight/0x2)/(zoomSimulacion*escalaBase)-panSimulacionY+robotFisico['body'][_0x59cedb(0x122)]['y'],transformedXbasico=(mouseX-windowWidth/0x2)/escalaBase,transformedYbasico=(mouseY-0x0)/escalaBase;if(!ejecutando){if(transformedXbasico>-0x5a-0x50&&transformedXbasico<-0x5a+0x50&&transformedYbasico>0x4b&&transformedYbasico<0x69){let _0x27e84e=new Obstaculo(transformedX+robotFisico['body'][_0x59cedb(0x122)]['x'],transformedY+robotFisico[_0x59cedb(0x158)]['position']['y'],0x50,0x50,0x0,![]);obstaculo[_0x59cedb(0x135)](_0x27e84e),offsetX=_0x27e84e['body'][_0x59cedb(0x122)]['x']-transformedX,offsetY=_0x27e84e[_0x59cedb(0x158)][_0x59cedb(0x122)]['y']-transformedY,RectX=_0x27e84e[_0x59cedb(0x158)][_0x59cedb(0x122)]['x'],RectY=_0x27e84e[_0x59cedb(0x158)][_0x59cedb(0x122)]['y'],obstaculoSeleccionado=null,obstaculoDesplazando=_0x27e84e,movidoDuranteEjecucion=!![];return;}if(transformedXbasico>0x5a-0x50&&transformedXbasico<0x5a+0x50&&transformedYbasico>0x4b&&transformedYbasico<0x69){let _0x3d0caa=new Obstaculo(transformedX+robotFisico[_0x59cedb(0x158)]['position']['x'],transformedY+robotFisico[_0x59cedb(0x158)][_0x59cedb(0x122)]['y'],0x50,0x50,0x0,!![]);obstaculo[_0x59cedb(0x135)](_0x3d0caa),offsetX=_0x3d0caa[_0x59cedb(0x158)][_0x59cedb(0x122)]['x']-transformedX,offsetY=_0x3d0caa[_0x59cedb(0x158)][_0x59cedb(0x122)]['y']-transformedY,RectX=_0x3d0caa[_0x59cedb(0x158)][_0x59cedb(0x122)]['x'],RectY=_0x3d0caa[_0x59cedb(0x158)][_0x59cedb(0x122)]['y'],obstaculoSeleccionado=null,obstaculoDesplazando=_0x3d0caa,movidoDuranteEjecucion=!![];return;}if(obstaculoSeleccionado!=null){obstaculoSeleccionado[_0x59cedb(0x118)]=obstaculoSeleccionado[_0x59cedb(0x12a)]();if(obstaculoSeleccionado[_0x59cedb(0x118)]>0x0&&obstaculoSeleccionado[_0x59cedb(0x118)]<0x6){obstaculoSeleccionado[_0x59cedb(0x158)][_0x59cedb(0x16f)]=!![];if(obstaculoSeleccionado[_0x59cedb(0x118)]==0x1){let _0x3a5891=atan2(transformedObstaculoY-obstaculoSeleccionado['body'][_0x59cedb(0x122)]['y'],transformedObstaculoX-obstaculoSeleccionado[_0x59cedb(0x158)][_0x59cedb(0x122)]['x']);offsetAngulo=_0x3a5891-obstaculoSeleccionado[_0x59cedb(0x158)][_0x59cedb(0x15c)];}}else obstaculoSeleccionado=null,obstaculoSeleccionado[_0x59cedb(0x158)]['isStatic']=obstaculoSeleccionado[_0x59cedb(0x13c)];return;}for(let _0x5387f4 of obstaculo){if(_0x5387f4[_0x59cedb(0x12a)]()==0x6){if(Crono>0x0)movidoDuranteEjecucion=!![];offsetX=_0x5387f4[_0x59cedb(0x158)]['position']['x']-transformedX,offsetY=_0x5387f4['body'][_0x59cedb(0x122)]['y']-transformedY,obstaculoDesplazando=_0x5387f4,RectX=obstaculoDesplazando['body'][_0x59cedb(0x122)]['x'],RectY=obstaculoDesplazando[_0x59cedb(0x158)]['position']['y'],obstaculoSeleccionado=null,movidoDuranteEjecucion=!![];return;}}resultadoSeleccion=robotFisico[_0x59cedb(0x12a)]();if(robotSeleccionado==!![]){if(resultadoSeleccion==0x1){anguloInicial=atan2(transformedY,transformedX),offsetAngulo=anguloInicial-robotFisico['body'][_0x59cedb(0x15c)],angleDragged=robotFisico['body'][_0x59cedb(0x15c)],robotFisico['body'][_0x59cedb(0x16f)]=!![];return;}else{if(resultadoSeleccion==0x0){robotSeleccionado=![];return;}}}if(resultadoSeleccion==0x2){desplazandoRobot=!![],robotFisico['body'][_0x59cedb(0x16f)]=!![],robotSeleccionado=![],offsetX=robotFisico['body']['position']['x']-transformedX,offsetY=robotFisico['body'][_0x59cedb(0x122)]['y']-transformedY,CrumblebotAnteriorX=robotFisico[_0x59cedb(0x158)][_0x59cedb(0x122)]['x'],CrumblebotAnteriorY=robotFisico['body'][_0x59cedb(0x122)]['y'],CrumX=robotFisico[_0x59cedb(0x158)][_0x59cedb(0x122)]['x'],CrumY=robotFisico[_0x59cedb(0x158)][_0x59cedb(0x122)]['y'];return;}}ejecutando==![]&&(panningSimulacion=!![],panStartSimulacionX=mouseX,panStartSimulacionY=mouseY);return;}else{if(modo==0x4){if(colorPickerOpen){mouseColorX=(mouseX-windowWidth/0x2+ANCHO_MARCO/0x2)/escalaBase,mouseColorY=(mouseY-windowHeight/0x2+ALTO_MARCO/0x2)/escalaBase;let _0x40f8bc=mouseX-(windowWidth/0x2-ANCHO_MARCO/0x2*escalaBase),_0x1804d8=mouseY-(windowHeight/0x2-ALTO_MARCO/0x2*escalaBase),_0x40a0f4=_0x40f8bc/escalaBase,_0x15a9af=_0x1804d8/escalaBase;if(mouseColorX>=PICKER_X&&mouseColorX<=PICKER_X+ANCHO_PICKER&&mouseColorY>=PICKER_Y-ALTO_PICKER&&mouseColorY<=PICKER_Y){hue=Math[_0x59cedb(0x154)](map(mouseColorX-PICKER_X,0x0,ANCHO_PICKER,0x0,0xef)),saturation=Math[_0x59cedb(0x154)](map(PICKER_Y-mouseColorY,0x0,ALTO_PICKER,0x0,0xf0)),currentColor=HSBtoRGB(hue,saturation,getBrightness(currentColor)),updateColor();return;}let _0x4f58e3=PICKER_X+ANCHO_PICKER+0xa;if(mouseColorX>=_0x4f58e3&&mouseColorX<=_0x4f58e3+0xa&&mouseColorY>=PICKER_Y-ALTO_PICKER&&mouseColorY<=PICKER_Y){brightness=Math[_0x59cedb(0x154)](map(PICKER_Y-mouseColorY,0x0,ALTO_PICKER,0x0,0xf0)),currentColor=HSBtoRGB(getHue(currentColor),getSaturation(currentColor),brightness),updateColor();return;}if(_0x40a0f4>0xa&&_0x40a0f4<0xcd&&_0x15a9af>0xfa&&_0x15a9af<0x10e)return;if(_0x40a0f4>0xa&&_0x40a0f4<0x64&&_0x15a9af>0x118&&_0x15a9af<0x12c){colorPickerOpen=![],bloqueEditando[_0x59cedb(0x137)][subBloqueEditando]=currentColor['toString'](_0x59cedb(0x153)),bloqueEditando=null;return;}if(_0x40a0f4>0x73&&_0x40a0f4<0xcd&&_0x15a9af>0x118&&_0x15a9af<0x12c){colorPickerOpen=![],bloqueEditando=null;return;}if(_0x40a0f4>0xa&&_0x40a0f4<0xaa&&_0x15a9af>0x28&&_0x15a9af<0xa0){let _0x576817=(_0x40a0f4-0xa)/0x19,_0x3257d9=(_0x15a9af-0x28)/0x14;_0x576817>=0x0&&_0x576817<0x8&&_0x3257d9>=0x0&&_0x3257d9<0x6&&(BASIC_COLORSeleccionado=_0x3257d9*0x8+_0x576817,currentColor=BASIC_COLOR[BASIC_COLORSeleccionado],updateColor());return;}if(_0x40a0f4>0xa&&_0x40a0f4<0x5a&&_0x15a9af>0xc8&&_0x15a9af<0xf0){let _0x46676b=(_0x40a0f4-0xa)/0x19,_0xce1565=(_0x15a9af-0xc8)/0x14;_0x46676b>=0x0&&_0x46676b<0x4&&_0xce1565>=0x0&&_0xce1565<0x4&&(customColorSeleccionado=_0xce1565*0x4+_0x46676b,customColor[customColorSeleccionado]&&(currentColor=customColor[customColorSeleccionado],updateColor()));return;}if(customColorActivo&&_0x40a0f4>PICKER_X&&_0x40a0f4<PICKER_X+ANCHO_PICKER&&_0x15a9af>PICKER_Y-ALTO_PICKER&&_0x15a9af<PICKER_Y){hue=map(_0x40a0f4-PICKER_X,0x0,ANCHO_PICKER,0x0,0xef),saturation=map(PICKER_Y-_0x15a9af,0x0,ALTO_PICKER,0x0,0xf0),currentColor=HSBtoRGB(hue,saturation,brightness),updateColor();return;}if(customColorActivo&&_0x40a0f4>PICKER_X+ANCHO_PICKER+0xa&&_0x40a0f4<PICKER_X+ANCHO_PICKER+0x14&&_0x15a9af>PICKER_Y-ALTO_PICKER&&_0x15a9af<PICKER_Y){brightness=map(PICKER_Y-_0x15a9af,0x0,ALTO_PICKER,0x0,0xf0),currentColor=HSBtoRGB(hue,saturation,brightness),updateColor();return;}if(customColorActivo&&_0x40a0f4>PICKER_X&&_0x40a0f4<PICKER_X+ANCHO_PICKER+0x14&&_0x15a9af>0x118&&_0x15a9af<0x12c){if(customColorSeleccionado<0x10)customColor[customColorSeleccionado]=currentColor;else for(let _0x1219c1=0x0;_0x1219c1<customColor[_0x59cedb(0x171)];_0x1219c1++){if(!customColor[_0x1219c1]){customColor[_0x1219c1]=currentColor,customColorSeleccionado=_0x1219c1;break;}}return;}return;}else transformedX=(mouseX-windowWidth/0x2)/(zoomCodigo*escalaBase)-panCodigoX,transformedY=(mouseY-windowHeight/0x2)/(zoomCodigo*escalaBase)-panCodigoY;if(bloqueSeleccionado!==null&&desplegableBloque){if(mouseX>xDesplegable+0xa*escalaBase&&mouseX<xDesplegable+0xc8*escalaBase&&mouseY>yDesplegable&&mouseY<yDesplegable+0x19*escalaBase){let _0x24794b;bloquesVirtuales=[];for(let _0x2f1efe of bloquesSeleccionados){_0x24794b=_0x2f1efe['clonarBloque'](),bloquesVirtuales[_0x59cedb(0x135)](_0x24794b);}for(let _0x4e31e6=0x0;_0x4e31e6<bloquesSeleccionados[_0x59cedb(0x171)];_0x4e31e6++){bloquesSeleccionados[_0x4e31e6][_0x59cedb(0x11d)]===-0x1?bloquesVirtuales[_0x4e31e6]['anterior']=null:bloquesVirtuales[_0x4e31e6][_0x59cedb(0x128)]=bloquesVirtuales[bloquesSeleccionados[_0x4e31e6]['anteriorClon']],bloquesSeleccionados[_0x4e31e6]['siguienteClon']===-0x1?bloquesVirtuales[_0x4e31e6][_0x59cedb(0x127)]=null:bloquesVirtuales[_0x4e31e6][_0x59cedb(0x127)]=bloquesVirtuales[bloquesSeleccionados[_0x4e31e6][_0x59cedb(0x150)]],bloquesSeleccionados[_0x4e31e6]['padreClon']===-0x1?bloquesVirtuales[_0x4e31e6]['padre']=null:bloquesVirtuales[_0x4e31e6][_0x59cedb(0x14a)]=bloquesVirtuales[bloquesSeleccionados[_0x4e31e6]['padreClon']],bloquesSeleccionados[_0x4e31e6][_0x59cedb(0x16e)]===-0x1?bloquesVirtuales[_0x4e31e6]['bucleSiguiente']=null:bloquesVirtuales[_0x4e31e6][_0x59cedb(0x121)]=bloquesVirtuales[bloquesSeleccionados[_0x4e31e6][_0x59cedb(0x16e)]],bloquesSeleccionados[_0x4e31e6][_0x59cedb(0x11d)]=-0x1,bloquesSeleccionados[_0x4e31e6][_0x59cedb(0x150)]=-0x1,bloquesSeleccionados[_0x4e31e6][_0x59cedb(0x14c)]=-0x1,bloquesSeleccionados[_0x4e31e6][_0x59cedb(0x16e)]=-0x1;}for(let _0xdcddfe=0x0;_0xdcddfe<bloquesVirtuales['length'];_0xdcddfe++){bloquesVirtuales[_0xdcddfe][_0x59cedb(0x11d)]=-0x1,bloquesVirtuales[_0xdcddfe][_0x59cedb(0x150)]=-0x1,bloquesVirtuales[_0xdcddfe][_0x59cedb(0x14c)]=-0x1,bloquesVirtuales[_0xdcddfe]['bucleSiguienteClon']=-0x1,codigo['push'](bloquesVirtuales[_0xdcddfe]);}desplegableBloque=![];return;}if(mouseX>xDesplegable+0xa*escalaBase&&mouseX<xDesplegable+0xc8*escalaBase&&mouseY>yDesplegable+0x19*escalaBase&&mouseY<yDesplegable+0x32*escalaBase){eliminarBloques(),bloquesSeleccionados=[],desplegableBloque=![];return;}}for(let _0x1a590b=0x0;_0x1a590b<codigoCategoria['length'];_0x1a590b++){if(codigoCategoria[_0x1a590b][_0x59cedb(0x12a)](transformedXbasico,transformedYbasico,!![])!==null){menu=_0x1a590b;return;}}for(let _0x1aae2d of codigoMenu){if(_0x1aae2d[_0x59cedb(0x126)]===menu){if(_0x1aae2d[_0x59cedb(0x12a)](transformedXbasico,transformedYbasico,!![])!==null){if(_0x1aae2d['nombre']===_0x59cedb(0x172)&&menu==0x3)crearVariable(_0x59cedb(0x114)),bloqueEditando=codigoVariables[codigoVariables[_0x59cedb(0x171)]-0x1];else{let _0x2f5966=_0x1aae2d['id'];offsetX=Math[_0x59cedb(0x154)](_0x1aae2d['x']-transformedXbasico),offsetY=Math[_0x59cedb(0x154)](_0x1aae2d['y']-transformedYbasico);let _0x8096bb=new Bloque(Math[_0x59cedb(0x154)]((transformedX+offsetX)/zoomCodigo),Math[_0x59cedb(0x154)]((transformedY+offsetY)/zoomCodigo),menu,_0x2f5966,t[menu][_0x2f5966],![],!![]);codigo[_0x59cedb(0x135)](_0x8096bb);if(_0x1aae2d[_0x59cedb(0x117)]===_0x59cedb(0x142)){let _0x3d4cee=new Bloque(_0x1aae2d['x'],_0x1aae2d['y'],menu,_0x2f5966+0x1,t[menu][_0x2f5966+0x1],![],!![]);codigo['push'](_0x3d4cee),codigo[codigo['length']-0x1][_0x59cedb(0x128)]=codigo[codigo[_0x59cedb(0x171)]-0x2],codigo[codigo[_0x59cedb(0x171)]-0x1]['num']=cont,cont++,codigo[codigo[_0x59cedb(0x171)]-0x2][_0x59cedb(0x127)]=codigo[codigo[_0x59cedb(0x171)]-0x1],codigo[codigo[_0x59cedb(0x171)]-0x2][_0x59cedb(0x115)]=cont,cont++,bloqueSeleccionado=codigo[codigo[_0x59cedb(0x171)]-0x2];}else bloqueSeleccionado=codigo[codigo[_0x59cedb(0x171)]-0x1];bloqueSeleccionado[_0x59cedb(0x117)]===_0x59cedb(0x148)&&(bloquesStart[_0x59cedb(0x135)](bloqueSeleccionado),bloqueEjecutando=bloqueSeleccionado),bloqueSeleccionado[_0x59cedb(0x138)](),codigo[codigo['length']-0x1][_0x59cedb(0x115)]=cont,cont++;}return;}}}if(bloqueEditando!==null)cerrarEdicionTexto();bloqueSeleccionado=seleccionBloque(transformedX,transformedY);if(bloqueSeleccionado!==null)return;for(let _0x20b38d of[...codigoVariables]){if(_0x20b38d[_0x59cedb(0x12a)](transformedXbasico,transformedYbasico,!![])!==null){offsetX=Math['floor'](_0x20b38d['x']-transformedXbasico),offsetY=Math['floor'](_0x20b38d['y']-transformedYbasico);let _0x1e6ade=new Bloque(transformedX+offsetX,transformedY+offsetY,0x3,0x4,BOTON_VARIABLE,![],!![]);codigo[_0x59cedb(0x135)](_0x1e6ade),codigo[codigo[_0x59cedb(0x171)]-0x1][_0x59cedb(0x12d)][0x0]=_0x20b38d[_0x59cedb(0x12d)][0x0],codigo[codigo['length']-0x1][_0x59cedb(0x12f)][0x0]=_0x20b38d[_0x59cedb(0x12f)][0x0],codigo[codigo[_0x59cedb(0x171)]-0x1][_0x59cedb(0x119)]=_0x20b38d,bloqueSeleccionado=codigo[codigo[_0x59cedb(0x171)]-0x1],bloqueSeleccionado[_0x59cedb(0x138)]();return;}}for(let _0x3bb862 of[...botonesVariables]){if(_0x3bb862['colision'](transformedXbasico,transformedYbasico,!![])!==null&&menu==0x3){if(_0x3bb862['boton']===!![]){if(_0x3bb862['id']===0x64){let _0xb26528=botonesVariables[_0x59cedb(0x14e)](_0x3bb862),_0x396e98=botonesVariables['indexOf'](_0x3bb862['siguiente']);_0x396e98>-0x1&&botonesVariables['splice'](_0x396e98,0x1);for(let _0x541fc7 of[...codigo]){let _0x12d70f=_0x541fc7[_0x59cedb(0x152)](_0x3bb862['padre']);if(_0x12d70f!==null){let _0x3c4415=codigo[_0x59cedb(0x14e)](_0x12d70f);_0x3c4415>-0x1&&codigo[_0x59cedb(0x161)](_0x3c4415,0x1);}}let _0x268ede=codigoVariables['indexOf'](_0x3bb862['padre']);_0x268ede>-0x1&&codigoVariables[_0x59cedb(0x161)](_0x268ede,0x1);let _0x476966=botonesVariables[_0x59cedb(0x14e)](_0x3bb862);_0x476966>-0x1&&botonesVariables[_0x59cedb(0x161)](_0x476966,0x1);altoMenu[0x3]=altoMenu[0x3]-codigoMenu[codigoMenu[_0x59cedb(0x171)]-0x1][_0x59cedb(0x156)]-SEPARACION_BLOQUES_MENU;for(let _0x405833=_0xb26528;_0x405833<botonesVariables['length'];_0x405833=_0x405833+0x2){botonesVariables[_0x405833]['y']=botonesVariables[_0x405833]['y']-Math['floor'](botonesVariables[_0x405833]['grosorBloque']+SEPARACION_BLOQUES_MENU),botonesVariables[_0x405833][_0x59cedb(0x127)]['y']=botonesVariables[_0x405833][_0x59cedb(0x127)]['y']-Math[_0x59cedb(0x154)](botonesVariables[_0x405833][_0x59cedb(0x127)][_0x59cedb(0x167)]+SEPARACION_BLOQUES_MENU),botonesVariables[_0x405833][_0x59cedb(0x14a)]['y']=botonesVariables[_0x405833][_0x59cedb(0x14a)]['y']-Math[_0x59cedb(0x154)](botonesVariables[_0x405833][_0x59cedb(0x14a)][_0x59cedb(0x167)]+SEPARACION_BLOQUES_MENU);}return;}else{if(_0x3bb862['id']===0xc8){bloqueEditando=_0x3bb862['padre'];return;}}}}}let _0x26af94;menu<0x5?_0x26af94=anchoMenu[0x0]+0xa:_0x26af94=anchoMenu[0x5]+0xa,!(mouseX<_0x26af94&&mouseY<altoMenu[menu]||mouseY<0x0)&&(panningCodigo=!![],panStartCodigoX=mouseX,panStartCodigoY=mouseY);}else{if(modo==0x3){transformedXbasico=(mouseX-windowWidth/0x2)/(zoomConfiguracion*escalaBase/1.5),transformedYbasico=(mouseY-windowHeight/0x2)/(zoomConfiguracion*escalaBase/1.5);if(dist(transformedXbasico,transformedYbasico,-0x6b,0x10a)<0xa){elemento[0x4][_0x59cedb(0x15e)]=0xff;return;}if(dist(transformedXbasico,transformedYbasico,0xe0,0x21)<0xa){elemento[0x6][_0x59cedb(0x15e)]=0xff;return;}if(transformedYbasico>0x10e&&transformedYbasico<0x118){if(transformedXbasico>0x28&&transformedXbasico<0x32&&ejecutando==!![]){botonStop();return;}else{if(transformedXbasico>0x4b&&transformedXbasico<0x55&&ejecutando==![]){botonPlay();return;}}}if(transformedXbasico>ULTRASONIC_X-ANCHO_ULTRASONIC/0x2&&transformedXbasico<ULTRASONIC_X+ANCHO_ULTRASONIC/0x2&&transformedYbasico>ULTRASONIC_Y-ALTO_ULTRASONIC/0x2&&transformedYbasico<ULTRASONIC_Y+ALTO_ULTRASONIC/0x2){robot[_0x59cedb(0x157)]=!![];return;}else{if(transformedXbasico>ULTRASONIDOS_X-ANCHO_ULTRASONIDOS/0x2&&transformedXbasico<ULTRASONIDOS_X+ANCHO_ULTRASONIDOS/0x2&&transformedYbasico>ULTRASONIDOS_Y-ALTO_ULTRASONIDOS/0x2&&transformedYbasico<ULTRASONIDOS_Y+ALTO_ULTRASONIDOS/0x2){robot[_0x59cedb(0x157)]=![];return;}}for(let _0x4d6a98=0x0;_0x4d6a98<jumpers[_0x59cedb(0x171)];_0x4d6a98++){let _0x3111a3=jumpers[_0x4d6a98];jumperSeleccionado=_0x3111a3['desconectar'](transformedXbasico,transformedYbasico);if(jumperSeleccionado!=null)return;}for(let _0x6dd052=0x0;_0x6dd052<conector[_0x59cedb(0x171)];_0x6dd052++){let _0x4b59f7=conector[_0x6dd052];conectorSeleccionado=_0x4b59f7['desconectar'](transformedXbasico,transformedYbasico);if(conectorSeleccionado!=null)return;}}else{if(modo==0x6){let _0x6c4cfa=mouseX/escalaBase,_0x26ac61=mouseY/escalaBase+offsetYBarra;for(let _0x2c1a50=0x0;_0x2c1a50<thumbnails['length'];_0x2c1a50++){_0x6c4cfa>=xPos[_0x2c1a50]&&_0x6c4cfa<=xPos[_0x2c1a50]+anchoThumbnail&&_0x26ac61>=yPos[_0x2c1a50]&&_0x26ac61<=yPos[_0x2c1a50]+altoThumbnail&&(indiceTapeteSeleccionado=_0x2c1a50,shapeCargado=![],nombreFondo=archivosSVG[_0x2c1a50],cargarFondo());}if(totalThumbnailsHeight>windowHeight){let _0x1e5233=windowWidth-0x28;mouseX>=_0x1e5233&&mouseX<=_0x1e5233+0x14&&mouseY>=0x3c&&mouseY<=windowHeight-0x28&&(arrastrandoScroll=!![],clickScrollY=mouseY,scrollOffsetInicial=offsetYBarra);}indiceTapeteSeleccionado=-0x1;}}}}}else mouseButton===RIGHT&&(modo===0x4&&(transformedX=Math[_0x59cedb(0x154)]((mouseX-windowWidth/0x2)/(zoomCodigo*escalaBase)-panCodigoX),transformedY=Math[_0x59cedb(0x154)]((mouseY-windowHeight/0x2)/(zoomCodigo*escalaBase)-panCodigoY),bloqueSeleccionado=seleccionBloque(transformedX,transformedY),bloqueSeleccionado!==null&&(desplegableBloque=!![],xDesplegable=mouseX,yDesplegable=mouseY)));}function seleccionBloque(_0x2663bf,_0x22502b){const _0x9baccd=a0_0x3b33;for(let _0x59581a of codigo){_0x59581a[_0x9baccd(0x117)]!==_0x9baccd(0x129)&&(bloqueSeleccionado=_0x59581a[_0x9baccd(0x12a)](_0x2663bf,_0x22502b,!![]));if(bloqueSeleccionado!=null){bloqueSeleccionado['nombre']===_0x9baccd(0x148)&&(bloqueStartSeleccionado=bloqueSeleccionado);offsetX=_0x59581a['x']-_0x2663bf,offsetY=_0x59581a['y']-_0x22502b;bloqueSeleccionado[_0x9baccd(0x13b)]===!![]&&(bloqueSeleccionado=bloqueSeleccionado[_0x9baccd(0x165)](_0x2663bf,_0x22502b));if(bloqueSeleccionado!=null){bloqueSeleccionado[_0x9baccd(0x138)](),offsetX=bloqueSeleccionado['x']-_0x2663bf,offsetY=bloqueSeleccionado['y']-_0x22502b;if(bloqueEditando!=null)cerrarEdicionTexto();inicioDesplazarBloque=!![],mouseOrigenX=mouseX,mouseOrigenY=mouseY;}break;}}return bloqueSeleccionado;}function mouseDragged(){const _0x16a190=a0_0x3b33;if(modo==0x5){if(panningSimulacion){panSimulacionX+=(mouseX-panStartSimulacionX)/(zoomSimulacion*escalaBase),panSimulacionY+=(mouseY-panStartSimulacionY)/(zoomSimulacion*escalaBase),panStartSimulacionX=mouseX,panStartSimulacionY=mouseY;return;}transformedX=(mouseX-windowWidth/0x2)/(zoomSimulacion*escalaBase)-panSimulacionX,transformedY=(mouseY-windowHeight/0x2)/(zoomSimulacion*escalaBase)-panSimulacionY,transformedObstaculoX=transformedX+robotFisico[_0x16a190(0x158)][_0x16a190(0x122)]['x'],transformedObstaculoY=transformedY+robotFisico[_0x16a190(0x158)][_0x16a190(0x122)]['y'];if(obstaculoSeleccionado!=null){if(obstaculoSeleccionado[_0x16a190(0x118)]==0x1){let _0x451479=atan2(transformedObstaculoY-obstaculoSeleccionado[_0x16a190(0x158)]['position']['y'],transformedObstaculoX-obstaculoSeleccionado[_0x16a190(0x158)][_0x16a190(0x122)]['x']);obstaculoSeleccionado[_0x16a190(0x158)]['angle']=_0x451479-offsetAngulo;}else{let _0x2ba954=(mouseX-pmouseX)/(zoomSimulacion*escalaBase),_0x5cce22=(mouseY-pmouseY)/(zoomSimulacion*escalaBase),_0x32e4e8=cos(-obstaculoSeleccionado[_0x16a190(0x158)][_0x16a190(0x15c)]),_0x4ad456=sin(-obstaculoSeleccionado['body'][_0x16a190(0x15c)]),_0x50f62c=_0x2ba954*_0x32e4e8-_0x5cce22*_0x4ad456,_0x1bd34e=_0x2ba954*_0x4ad456+_0x5cce22*_0x32e4e8;if(obstaculoSeleccionado[_0x16a190(0x118)]==0x2)obstaculoSeleccionado[_0x16a190(0x141)](_0x50f62c*0x2);else{if(obstaculoSeleccionado['modoTransformacion']==0x3)obstaculoSeleccionado['ensanchar'](-_0x50f62c*0x2);else{if(obstaculoSeleccionado[_0x16a190(0x118)]==0x4)obstaculoSeleccionado[_0x16a190(0x110)](_0x1bd34e*0x2);else obstaculoSeleccionado[_0x16a190(0x118)]==0x5&&obstaculoSeleccionado[_0x16a190(0x110)](-_0x1bd34e*0x2);}}}return;}else{if(obstaculoDesplazando!=null){RectX=transformedX+offsetX,RectY=transformedY+offsetY;return;}else{if(desplazandoBulb){bulbX=transformedX+offsetX,bulbY=transformedY+offsetY;return;}else{if(robotSeleccionado){if(Crono>0x0)movidoDuranteEjecucion=!![];angleDragged=atan2(transformedY,transformedX)-offsetAngulo,robotFisico[_0x16a190(0x158)][_0x16a190(0x15c)]=atan2(transformedY,transformedX)-offsetAngulo;}else{if(desplazandoRobot==!![]){movidoDuranteEjecucion=!![],CrumX=transformedX+offsetX,CrumY=transformedY+offsetY;(robotFisico[_0x16a190(0x158)][_0x16a190(0x122)]['x']<-anchoMundo/2.5||robotFisico[_0x16a190(0x158)][_0x16a190(0x122)]['x']>anchoMundo/2.5||robotFisico[_0x16a190(0x158)]['position']['y']<-altoMundo/2.5||robotFisico['body']['position']['y']>altoMundo/2.5)&&(desplazandoRobot=![],Matter[_0x16a190(0x11f)]['setPosition'](robotFisico[_0x16a190(0x158)],{'x':0x0,'y':0x0}),mensaje='Robot\x20fuera\x20de\x20los\x20límites\x20del\x20mundo',inicioMensaje=millis());return;}}}}}}else{if(modo==0x4){if(colorPickerOpen)return;if(panningCodigo)panCodigoX+=(mouseX-panStartCodigoX)/(zoomCodigo*escalaBase),panCodigoY+=(mouseY-panStartCodigoY)/(zoomCodigo*escalaBase),panStartCodigoX=mouseX,panStartCodigoY=mouseY;else{if(inicioDesplazarBloque==!![]&&(mouseOrigenX!=mouseX||mouseOrigenY!=mouseY)){if(bloqueSeleccionado[_0x16a190(0x155)]=='_')desconectar(bloqueSeleccionado);else{if(bloqueSeleccionado['padre']!=null)for(let _0xbf9c32=0x0;_0xbf9c32<bloqueSeleccionado[_0x16a190(0x14a)][_0x16a190(0x116)][_0x16a190(0x171)];_0xbf9c32++){if(bloqueSeleccionado==bloqueSeleccionado[_0x16a190(0x14a)][_0x16a190(0x116)][_0xbf9c32]){bloqueSeleccionado[_0x16a190(0x14a)]['subBloque'][_0xbf9c32]=null,bloqueSeleccionado[_0x16a190(0x14a)][_0x16a190(0x133)][_0xbf9c32]=bloqueSeleccionado['padre'][_0x16a190(0x131)](bloqueSeleccionado[_0x16a190(0x14a)][_0x16a190(0x137)][_0xbf9c32]),bloqueSeleccionado[_0x16a190(0x14a)][_0x16a190(0x16a)](),bloqueSeleccionado[_0x16a190(0x14a)]['calculoGrosorBucle'](),bloqueSeleccionado[_0x16a190(0x14a)][_0x16a190(0x166)]();bloqueSeleccionado[_0x16a190(0x14a)][_0x16a190(0x14a)]!=null&&(bloqueSeleccionado[_0x16a190(0x14a)][_0x16a190(0x14a)][_0x16a190(0x10e)](),bloqueSeleccionado[_0x16a190(0x14a)][_0x16a190(0x14a)][_0x16a190(0x166)]());break;}}}bloqueSeleccionado[_0x16a190(0x138)](),inicioDesplazarBloque=![];return;}else{if(bloqueSeleccionado!=null&&codigo!=null){transformedX=Math[_0x16a190(0x154)]((mouseX-windowWidth/0x2)/(zoomCodigo*escalaBase)-panCodigoX),transformedY=Math[_0x16a190(0x154)]((mouseY-windowHeight/0x2)/(zoomCodigo*escalaBase)-panCodigoY),bloqueSeleccionado['x']=transformedX+offsetX,bloqueSeleccionado['y']=transformedY+offsetY;bloqueSeleccionado[_0x16a190(0x155)]=='_'&&bloqueSeleccionado['actualizarCoordenadas']();seleccion=null,seleccion2=null,seleccion3=null;for(let _0x5e2eca of codigo){seleccion=_0x5e2eca[_0x16a190(0x12a)](bloqueSeleccionado['x'],bloqueSeleccionado['y'],!![]);if(seleccion!=null){(bloqueSeleccionado[_0x16a190(0x155)]=='o'||bloqueSeleccionado['tipo']=='h')&&(seleccion2=seleccion['colisionInterior'](bloqueSeleccionado['x'],bloqueSeleccionado['y'],bloqueSeleccionado['tipo']));break;}if(bloqueSeleccionado[_0x16a190(0x155)]=='_'){seleccion3=_0x5e2eca[_0x16a190(0x12a)](bloqueSeleccionado['x'],bloqueSeleccionado['y'],![]);if(seleccion3!=null){seleccion3[_0x16a190(0x117)]===_0x16a190(0x142)&&(seleccion3=null);break;}}}}}}}else{if(modo===0x3){transformedXbasico=Math[_0x16a190(0x154)]((mouseX-windowWidth/0x2)/(zoomConfiguracion*escalaBase/1.5)),transformedYbasico=Math[_0x16a190(0x154)]((mouseY-windowHeight/0x2)/(zoomConfiguracion*escalaBase/1.5));if(jumperSeleccionado!=null){jumperSeleccionado['x']=transformedXbasico+offsetX,jumperSeleccionado['y']=transformedYbasico+offsetY;return;}else{if(conectorSeleccionado!=null){conectorSeleccionado['x']=transformedXbasico+offsetX,conectorSeleccionado['y']=transformedYbasico+offsetY;return;}}}else{if(modo==0x6){if(draggingScrollBar){let _0x4e2c08=mouseY-dragStartY,_0x3c7278=totalThumbnailsHeight-(windowHeight/escalaBase-0x64);offsetYBarra=constrain(offsetYBarra+_0x4e2c08,0x0,_0x3c7278),dragStartY=mouseY;}}}}}}function mouseReleased(){const _0x1e4788=a0_0x3b33;if(modo==0x5){panningSimulacion=![],desplazandoBulb=![],elemento[0x4][_0x1e4788(0x15e)]=0x0,elemento[0x6][_0x1e4788(0x15e)]=0x0;if(obstaculoDesplazando!=null){mouseX==mouseOrigenX&&mouseY==mouseOrigenY?(obstaculoSeleccionado=obstaculoDesplazando,obstaculoSeleccionado[_0x1e4788(0x16f)]=!![]):obstaculoDesplazando[_0x1e4788(0x158)][_0x1e4788(0x16f)]=obstaculoDesplazando[_0x1e4788(0x13c)];Matter[_0x1e4788(0x11f)]['setPosition'](obstaculoDesplazando[_0x1e4788(0x158)],{'x':RectX,'y':RectY}),obstaculoDesplazando=null;return;}if(desplazandoRobot){if(mouseX==mouseOrigenX&&mouseX==mouseOrigenX)robotSeleccionado=!![];Matter[_0x1e4788(0x11f)][_0x1e4788(0x144)](robotFisico[_0x1e4788(0x158)],{'x':CrumX,'y':CrumY}),robotFisico[_0x1e4788(0x158)][_0x1e4788(0x16f)]=![],desplazandoRobot=![];return;}robotSeleccionado&&(robotFisico[_0x1e4788(0x158)][_0x1e4788(0x16f)]=![],robotSeleccionado=![]),desplazandoBulb&&(desplazandoBulb=![]);}else{if(modo==0x3)elemento[0x4][_0x1e4788(0x15e)]=0x0,elemento[0x6][_0x1e4788(0x15e)]=0x0,jumperSeleccionado!=null&&(jumperSeleccionado[_0x1e4788(0x12b)](),jumperSeleccionado=null),conectorSeleccionado!=null&&(conectorSeleccionado[_0x1e4788(0x12b)](),conectorSeleccionado=null);else{if(modo==0x4){panningCodigo=![],desplazandoVentanaColor=![];if(bloqueSeleccionado!=null){transformedXbasico=Math['floor'](mouseX+offsetX),transformedYbasico=Math['floor'](mouseY+offsetY);let _0xb71399;menu<0x5?_0xb71399=anchoMenu[0x0]+0xa:_0xb71399=anchoMenu[0x5]+0xa;if(transformedXbasico<_0xb71399+0x5&&transformedYbasico<(altoMenu[menu]+0x5)*escalaBase||transformedYbasico<ALTO_MENU_SUPERIOR){if(bloqueSeleccionado['nombre']==='WhenRunBlock'){let _0x1352e7=-0x1;for(let _0x2d5ed=0x0;_0x2d5ed<bloquesStart[_0x1e4788(0x171)];_0x2d5ed++){if(bloquesStart[_0x2d5ed]===bloqueSeleccionado){_0x1352e7=_0x2d5ed;break;}}_0x1352e7>-0x1&&bloquesStart[_0x1e4788(0x161)](_0x1352e7,0x1);}eliminarBloques(),bloquesSeleccionados=[];}else{if(inicioDesplazarBloque==![]){bloqueSeleccionado[_0x1e4788(0x117)]==='WhenRunBlock'&&(bloqueStartSeleccionado=bloqueSeleccionado);if(seleccion3!=null&&seleccion3!=undefined&&seleccion3['nombre']!=_0x1e4788(0x140))conectar(bloqueSeleccionado,seleccion3,![]),seleccion3=null;else{if(seleccion2!=null&&seleccion2!=undefined&&bloqueSeleccionado[_0x1e4788(0x155)]==seleccion2[_0x1e4788(0x16d)][seleccionSubBloque])seleccion2['addSubBloque'](seleccionSubBloque,bloqueSeleccionado),seleccion2=null;else seleccion!=null&&seleccion!=undefined&&seleccion[_0x1e4788(0x155)]=='_'&&bloqueSeleccionado[_0x1e4788(0x155)]=='_'&&(conectar(bloqueSeleccionado,seleccion,!![]),seleccion=null);}}}!desplegableBloque&&(bloqueSeleccionado=null,bloquesSeleccionados=[]);}}else modo==0x6&&(draggingScrollBar=![]);}}}function keyPressed(){const _0x1b6f84=a0_0x3b33;if(modo==0x5){if(key=='\x20'){ejecutando?botonStop():botonPlay();return;}if(key=='r'||key=='R'){botonReset();return;}if(keyCode===0x1b){}if(key==DELETE||key==BACKSPACE){if(obstaculoSeleccionado!=null){let _0x391b95=obstaculo['indexOf'](obstaculoSeleccionado);_0x391b95>-0x1&&(obstaculoSeleccionado['eliminar'](),obstaculo[_0x1b6f84(0x161)](_0x391b95,0x1),obstaculoInicio['splice'](_0x391b95,0x1),obstaculoSeleccionado=null,movidoDuranteEjecucion=!![]);}return;}}else{if(modo==0x4){if(modo==0x4&&bloqueEditando!=null&&colorPickerOpen==![]){if(keyCode==BACKSPACE)textoTemporal[_0x1b6f84(0x171)]>0x0&&(textoTemporal=textoTemporal[_0x1b6f84(0x147)](0x0,textoTemporal[_0x1b6f84(0x171)]-0x1));else{if(keyCode==ENTER||keyCode==RETURN||keyCode==ESCAPE)cerrarEdicionTexto();else{if(textoTemporal[_0x1b6f84(0x171)]<maximoCaracteres){if(bloqueEditando[_0x1b6f84(0x117)]!=_0x1b6f84(0x160))(key>='0'&&key<='9'||key=='.'||key=='-')&&(textoTemporal+=key);else(key>='0'&&key<='9'||key>='a'&&key<='z'||key>='A'&&key<='Z'||key==='.'||key==='-')&&(textoTemporal+=key);}}}return;}if(keyCode==DELETE||keyCode==BACKSPACE){bloqueSeleccionado2!=null&&(eliminarBloque(bloqueSeleccionado2),bloqueSeleccionado2=null,xDesplegable=-0x64,yDesplegable=-0x64);return;}if(keyCode==0x3d&&(keyIsDown(CONTROL)||keyIsDown(0x5b))){zoomCodigo=min(zoomCodigo+0.1,0x3);return;}if(keyCode==0xad&&(keyIsDown(CONTROL)||keyIsDown(0x5b))){zoomCodigo=max(zoomCodigo-0.1,0.5);return;}}}}function eliminarBloques(){const _0x19df6b=a0_0x3b33;for(let _0xb54269 of bloquesSeleccionados)_0xb54269[_0x19df6b(0x139)]();}function cerrarEdicionTexto(){const _0x5c9420=a0_0x3b33;if(!(bloqueEditando['categoria']===0x3&&bloqueEditando['id']>0x3)){if(esNumeroReal(textoTemporal)){let _0x418506=parseFloat(textoTemporal);if(bloqueEditando[_0x5c9420(0x117)]===_0x5c9420(0x145)){if(_0x418506>0x64)_0x418506=0x64;else{if(_0x418506<0x0)_0x418506=0x0;}}else{if(bloqueEditando[_0x5c9420(0x117)]===_0x5c9420(0x11b)||bloqueEditando[_0x5c9420(0x117)]===_0x5c9420(0x134)){if(_0x418506>0x5a)_0x418506=0x5a;else{if(_0x418506<-0x5a)_0x418506=-0x5a;}}else{if(bloqueEditando[_0x5c9420(0x117)]==='SetSprakleBlock'||bloqueEditando[_0x5c9420(0x117)]===_0x5c9420(0x130)||bloqueEditando[_0x5c9420(0x117)]==='SetSprakleRGBBlock'&&subBloqueEditando===0x0){if(_0x418506>0x1f)_0x418506=0x1f;else{if(_0x418506<0x0)_0x418506=0x0;}}else{if(bloqueEditando[_0x5c9420(0x117)]===_0x5c9420(0x111)&&(subBloqueEditando===0x1||subBloqueEditando===0x2||subBloqueEditando===0x3)||bloqueEditando[_0x5c9420(0x117)]===_0x5c9420(0x11a)){if(_0x418506>0xff)_0x418506=0xff;else{if(_0x418506<0x0)_0x418506=0x0;}}else{if(bloqueEditando[_0x5c9420(0x117)]===_0x5c9420(0x151)||bloqueEditando['nombre']===_0x5c9420(0x113)||bloqueEditando[_0x5c9420(0x117)]==='DoTimesBlock'){if(_0x418506>0x7fff)_0x418506=0x7fff;else{if(_0x418506<0x0)_0x418506=0x0;}}else{if(bloqueEditando['nombre']===_0x5c9420(0x124)||bloqueEditando['nombre']==='SubBlock'||bloqueEditando[_0x5c9420(0x117)]==='MultiplyBlock'||bloqueEditando[_0x5c9420(0x117)]===_0x5c9420(0x12c)){if(_0x418506>0x7fff)_0x418506=0x7fff;else{if(_0x418506<0x0)_0x418506=0x0;}}else{if(bloqueEditando['nombre']===_0x5c9420(0x149)||bloqueEditando[_0x5c9420(0x117)]==='NotEqualBlock'||bloqueEditando[_0x5c9420(0x117)]==='LessThanBlock'||bloqueEditando[_0x5c9420(0x117)]===_0x5c9420(0x132)||bloqueEditando[_0x5c9420(0x117)]==='RandomBlock'){if(_0x418506>0x7fff)_0x418506=0x7fff;else{if(_0x418506<0x0)_0x418506=0x0;}}else{if(bloqueEditando[_0x5c9420(0x117)]===_0x5c9420(0x14b)){if(_0x418506>0x7fff)_0x418506=0x7fff;else{if(_0x418506<0x0)_0x418506=0x0;}}else{if(bloqueEditando[_0x5c9420(0x117)]===_0x5c9420(0x169)){if(_0x418506>0x4e20)_0x418506=0x4e20;else{if(_0x418506<0x0)_0x418506=0x0;}}else{if(bloqueEditando[_0x5c9420(0x117)]==='SetTempoBlock'){if(_0x418506>0x12c)_0x418506=0x12c;else{if(_0x418506<0x0)_0x418506=0x0;}}}}}}}}}}}bloqueEditando['nombre']===_0x5c9420(0x151)?textoTemporal=String(_0x418506):textoTemporal=String(Math[_0x5c9420(0x154)](_0x418506)),bloqueEditando[_0x5c9420(0x137)][subBloqueEditando]=textoTemporal,bloqueEditando[_0x5c9420(0x133)][subBloqueEditando]=bloqueEditando['calculoAnchoDato'](bloqueEditando[_0x5c9420(0x137)][subBloqueEditando]),bloqueEditando[_0x5c9420(0x16a)]();}}else{if(textoTemporal[_0x5c9420(0x13d)](/ /g,'')[_0x5c9420(0x171)]>0x0){bloqueEditando[_0x5c9420(0x12d)][0x0]=textoTemporal,bloqueEditando['AxTexto'][0x0]=bloqueEditando[_0x5c9420(0x131)](bloqueEditando['texto'][0x0]),bloqueEditando[_0x5c9420(0x16a)](),bloqueEditando[_0x5c9420(0x127)]['x']=bloqueEditando['x']+bloqueEditando['ancho']+0xa,bloqueEditando[_0x5c9420(0x127)][_0x5c9420(0x127)]['x']=bloqueEditando[_0x5c9420(0x127)]['x']+bloqueEditando[_0x5c9420(0x127)][_0x5c9420(0x123)]+0xa;let _0x56097b=bloqueEditando[_0x5c9420(0x127)][_0x5c9420(0x127)];_0x56097b['x']+_0x56097b['ancho']+0x5>anchoMenu[0x3]&&(anchoMenu[0x3]=_0x56097b['x']+_0x56097b['ancho']+0x5);for(let _0x51d347 of codigo){_0x51d347[_0x5c9420(0x16b)](bloqueEditando);}}}bloqueEditando=null,textoTemporal='';}function mouseWheel(_0x117799){const _0xb7d975=a0_0x3b33;if(modo==0x5){let _0x74c868=1.1,_0x39be8e=(mouseX-windowWidth/0x2)/(zoomSimulacion*escalaBase)-panSimulacionX,_0x1e2257=(mouseY-windowHeight/0x2)/(zoomSimulacion*escalaBase)-panSimulacionY;_0x117799[_0xb7d975(0x15f)]>0x0?zoomSimulacion/=_0x74c868:zoomSimulacion*=_0x74c868;zoomSimulacion=constrain(zoomSimulacion,0.1,0x3);let _0x267d9a=(mouseX-windowWidth/0x2)/(zoomSimulacion*escalaBase)-panSimulacionX,_0x70dad6=(mouseY-windowHeight/0x2)/(zoomSimulacion*escalaBase)-panSimulacionY;panSimulacionX+=_0x267d9a-_0x39be8e,panSimulacionY+=_0x70dad6-_0x1e2257;}else{if(modo==0x4){let _0x3286f6=1.1,_0x489736=(mouseX-windowWidth/0x2)/(zoomCodigo*escalaBase)-panCodigoX,_0x1b2a81=(mouseY-windowHeight/0x2)/(zoomCodigo*escalaBase)-panCodigoY;_0x117799['delta']>0x0?zoomCodigo/=_0x3286f6:zoomCodigo*=_0x3286f6;zoomCodigo=constrain(zoomCodigo,0.5,0x3);let _0xe2a166=(mouseX-windowWidth/0x2)/(zoomCodigo*escalaBase)-panCodigoX,_0x7906e0=(mouseY-windowHeight/0x2)/(zoomCodigo*escalaBase)-panCodigoY;panCodigoX+=_0xe2a166-_0x489736,panCodigoY+=_0x7906e0-_0x1b2a81;}else{if(modo==0x6){offsetYBarra+=_0x117799['delta']*0.5;let _0x3352ac=totalThumbnailsHeight-(windowHeight/escalaBase-0x64);offsetYBarra=constrain(offsetYBarra,0x0,_0x3352ac);}}}return![];}function cargarFondo(){loadImage('assets/images/escenarios/'+nombreFondo,_0x76195b=>{const _0x5a3766=a0_0x3b33;anchoTapete=_0x76195b[_0x5a3766(0x10f)],altoTapete=_0x76195b[_0x5a3766(0x173)],fondo=createGraphics(anchoTapete,altoTapete),fondo[_0x5a3766(0x143)](0x1),fondo[_0x5a3766(0x146)](0xff),laterales[_0x5a3766(0x135)](new Obstaculo(0x0,-altoTapete/0x2-0xa,anchoTapete+0x28,0x14,0x0,!![])),laterales[_0x5a3766(0x135)](new Obstaculo(0x0,altoTapete/0x2+0xa,anchoTapete+0x28,0x14,0x0,!![])),laterales[_0x5a3766(0x135)](new Obstaculo(-anchoTapete/0x2-0xa,0x0,0x14,altoTapete,0x0,!![])),laterales['push'](new Obstaculo(anchoTapete/0x2+0xa,0x0,0x14,altoTapete,0x0,!![])),fondo[_0x5a3766(0x14f)](_0x76195b,0x0,0x0,anchoTapete,altoTapete),Matter[_0x5a3766(0x11f)]['setPosition'](laterales[0x0][_0x5a3766(0x158)],{'x':0x0,'y':-altoTapete/0x2-0xa}),laterales[0x0][_0x5a3766(0x15b)](anchoTapete+0x28,0x14),Matter[_0x5a3766(0x11f)][_0x5a3766(0x144)](laterales[0x1][_0x5a3766(0x158)],{'x':0x0,'y':altoTapete/0x2+0xa}),laterales[0x1]['setSize'](anchoTapete+0x28,0x14),Matter[_0x5a3766(0x11f)][_0x5a3766(0x144)](laterales[0x2][_0x5a3766(0x158)],{'x':-anchoTapete/0x2-0xa,'y':0x0}),laterales[0x2][_0x5a3766(0x15b)](0x14,altoTapete),Matter[_0x5a3766(0x11f)]['setPosition'](laterales[0x3][_0x5a3766(0x158)],{'x':anchoTapete/0x2+0xa,'y':0x0}),laterales[0x3][_0x5a3766(0x15b)](0x14,altoTapete),modo=0x5;return;});}function botonPlay(){const _0x474f94=a0_0x3b33;if(modo==0x5&&!ejecutando){ejecutando=!![],inicioCrono=millis(),bloqueEjecutando=bloqueStartSeleccionado;for(let _0x5db3c1 of codigoVariables){_0x5db3c1[_0x474f94(0x137)][0x0]='0',_0x5db3c1[_0x474f94(0x15d)]=0x0;}}}function botonStop(){const _0x3754c7=a0_0x3b33;ejecutando=![],bloqueEjecutando=null,robotFisico[_0x3754c7(0x125)][0x0]=0x0,robotFisico[_0x3754c7(0x125)][0x1]=0x0,isBeeping=![];}function a0_0x3b33(_0x2e2a58,_0x35bdd8){_0x2e2a58=_0x2e2a58-0x10e;const _0x25b829=a0_0x25b8();let _0x3b3329=_0x25b829[_0x2e2a58];return _0x3b3329;}function botonReiniciar(){const _0x7fe0b1=a0_0x3b33;for(let _0x4c4371 of codigoVariables){_0x4c4371[_0x7fe0b1(0x137)][0x0]='0',_0x4c4371[_0x7fe0b1(0x15d)]=0x0;}Matter[_0x7fe0b1(0x11f)][_0x7fe0b1(0x144)](robotFisico[_0x7fe0b1(0x158)],{'x':robotFisico['xInicio'],'y':robotFisico[_0x7fe0b1(0x159)]}),robotFisico[_0x7fe0b1(0x158)][_0x7fe0b1(0x15c)]=robotFisico['anguloInicio'];if(obstaculo){for(let _0x3d404e=obstaculo[_0x7fe0b1(0x171)]-0x1;_0x3d404e>=0x0;_0x3d404e--){obstaculo[_0x3d404e]&&obstaculo[_0x3d404e]['eliminar']&&obstaculo[_0x3d404e][_0x7fe0b1(0x120)]();}obstaculo[_0x7fe0b1(0x171)]=0x0;if(obstaculoInicio!=null)for(let _0x1a093e=0x0;_0x1a093e<obstaculoInicio[_0x7fe0b1(0x171)];_0x1a093e++){let _0x48ed51=obstaculoInicio[_0x1a093e];if(_0x48ed51){let _0x2757d4=new Obstaculo(_0x48ed51['x'],_0x48ed51['y'],_0x48ed51[_0x7fe0b1(0x123)],_0x48ed51[_0x7fe0b1(0x112)],_0x48ed51[_0x7fe0b1(0x12e)],_0x48ed51[_0x7fe0b1(0x13c)]);obstaculo[_0x7fe0b1(0x135)](_0x2757d4),Body['setVelocity'](obstaculo,0x0),Body[_0x7fe0b1(0x16c)](obstaculo,0x0);}}}bloqueEjecutando=bloqueStartSeleccionado,movidoDuranteEjecucion=![],esperarUnCiclo=![],saltoIfElse=![],miliSegundos=0x0,Crono=0x0,Distancia=0x0,robotFisico[_0x7fe0b1(0x125)][0x0]=0x0,robotFisico[_0x7fe0b1(0x125)][0x1]=0x0,Body[_0x7fe0b1(0x15a)](robotFisico[_0x7fe0b1(0x158)],{'x':0x0,'y':0x0}),Body[_0x7fe0b1(0x16c)](robotFisico[_0x7fe0b1(0x158)],0x0),isBeeping=![];if(colorLED)for(let _0x22cf37=0x0;_0x22cf37<colorLED['length'];_0x22cf37++){colorLED[_0x22cf37]=color(0x0);}for(let _0x6dd354 of codigoVariables){_0x6dd354[_0x7fe0b1(0x137)][0x0]='0';}if(colorLED)for(let _0x36afba=0x0;_0x36afba<0x8;_0x36afba++){_0x36afba<colorLED[_0x7fe0b1(0x171)]&&(colorLED[_0x36afba]=color(0x0));}}function a0_0x25b8(){const _0x2976cc=['73330bQNXWf','DoForeverBlock','ensanchar','IfElseBlock','pixelDensity','setPosition','MotorBlock','background','substring','WhenRunBlock','EqualityBlock','padre','SmartDigitsBlock','padreClon','7zlINdx','indexOf','image','siguienteClon','WaitBlock','borrarVariables','#rrggbb','floor','tipo','grosorTotal','ultrasonidosConectado','body','yInicio','setVelocity','setSize','angle','valorNumerico','valorElemento','delta','VariableBlock','splice','488NARgfq','253AJFLRV','16210MYFHMn','colisionDatos','actualizarCoordenadas','grosorBloque','189390CSWzen','SmartPitchBlock','calculoDimensiones','actualizarNombreVariables','setAngularVelocity','tipoDato','bucleSiguienteClon','isStatic','1087840XGjqOO','length','AddNewVariableButton','height','calculoGrosorBucle','width','alargar','SetSprakleRGBBlock','alto','WaitMSBlock','My\x20Var','num','subBloque','nombre','modoTransformacion','variablePadre','SetAllSparklesRGBBlock','ServoBlock','30jNBilw','anteriorClon','892080qNRDnh','Body','eliminar','bucleSiguiente','position','ancho','AddBlock','potMotor','categoria','siguiente','anterior','ElseBlock','colision','conectar','DivideBlock','texto','angulo','AxTexto','TurnSprakleOffBlock','calculoAnchoDato','GreaterThanBlock','AxDato','ServoBlockType','push','505561juWIVj','dato','seleccionBloquesDependientes','eliminarBloque','clear','enEscenario','estatico','replace','52038LBDHqM'];a0_0x25b8=function(){return _0x2976cc;};return a0_0x25b8();}
->>>>>>> bf163b9ab4f3895eeb5a8a03b1d625366b12e16e
+function mousePressed() {
+  if (mouseButton === LEFT) {
+    transformedXbasico = mouseX / escalaBase;
+    transformedYbasico = mouseY / escalaBase;
+    // Si se pincha en los botones del menú
+    for(let i = 3; i < numBotones - 2; i++) {    
+      if (transformedXbasico > xBoton[i] - boton[i].width / 2 && 
+        transformedXbasico < xBoton[i] + boton[i].width / 2 && 
+        transformedYbasico > yBoton[i] - boton[i].width / 2 && 
+        transformedYbasico < yBoton[i] + boton[i].height / 2) {      
+        if (modo !== i) {
+          modo = i; 
+          return;
+        }
+      }
+    }
+    let inc = 0;
+    // Si se pincha en el botón + (ZOOM)
+    if (transformedXbasico > xBoton[6] - ANCHO_BOTON / 2 && 
+      transformedXbasico < xBoton[6] + ANCHO_BOTON / 2 && 
+      transformedYbasico > yBoton[6] - ANCHO_BOTON / 2 && 
+      transformedYbasico < yBoton[6] + ANCHO_BOTON / 2) {
+      inc = -0.25;
+    }
+    // Si se pincha en el botón - (ZOOM) 
+    else if (transformedXbasico > xBoton[7] - ANCHO_BOTON / 2 && 
+        transformedXbasico < xBoton[7] + ANCHO_BOTON / 2 && 
+        transformedYbasico > yBoton[7] - ANCHO_BOTON / 2 && 
+        transformedYbasico < yBoton[7] + ANCHO_BOTON / 2) {
+      inc = 0.25;
+    }
+    if (inc !== 0) { 
+      if (modo === 3) {
+        zoomConfiguracion = zoomConfiguracion + inc;
+        zoomConfiguracion = constrain(zoomConfiguracion, 1, 1.5);      
+      } else if (modo === 4) {
+        zoomCodigo = zoomCodigo + inc;
+        zoomCodigo = constrain(zoomCodigo, 0.5, 1.5);
+      } else if (modo === 5) {
+        zoomSimulacion = zoomSimulacion + inc;
+        zoomSimulacion = constrain(zoomSimulacion, 0.25, 1.5);
+        if (robot.ultrasonidosConectado === true) {
+          radio = 0;
+          bufferEfectos.clear();
+        }
+      }
+      return;
+    }
+    // Si se pincha en los botones PLAY, PARAR O REFRESCAR
+    for(let i = 0; i < 3; i++) { 
+      if (transformedXbasico > xBoton[i] - ANCHO_BOTON / 2 && 
+        transformedXbasico < xBoton[i] + ANCHO_BOTON / 2 && 
+        transformedYbasico > yBoton[i] - ANCHO_BOTON / 2 && 
+        transformedYbasico < yBoton[i] + ANCHO_BOTON / 2) {       
+        if (robot.ultrasonidosConectado === true) {
+          radio = 0;
+          bufferEfectos.clear();
+        }       
+        // Si se pulsa el botón PLAY
+        if (i === 0) botonPlay();
+        // Si se pulsa el botón PARAR
+        else if (i === 1) botonStop();
+        // Si se pulsa el botón REINICIAR
+        else if (i === 2) botonReiniciar();
+        return;
+      }
+    }
+    if (modo == 5) { // MODO SIMULACIÓN
+      //Pulsación den los botones SW1 y SW2
+      if (dist(mouseX,mouseY,windowWidth-155,windowHeight/2-40)<10) {elemento[4].valorElemento=255;return;}
+      if (dist(mouseX,mouseY,windowWidth-75,windowHeight/2-40)<10) {elemento[6].valorElemento=255;return;}  
+      //Pulsación en la bombilla
+      if (transformedXbasico>windowWidth/2-anchoBulb/2 && transformedXbasico<windowWidth/2+anchoBulb/2 && transformedYbasico>windowHeight-100-bulb.height/2 && transformedYbasico<windowHeight-100+bulb.height/2) { 
+        bulbX=windowWidth/2-robotFisico.body.position.x;
+        bulbY=windowHeight-100-robotFisico.body.position.y;
+        offsetX=bulbX-transformedXbasico;//Distancia entre ratón y punto de referencia del subBloque
+        offsetY=bulbY-transformedYbasico;
+        desplazandoBulb=true;
+        return;
+      } 
+      // Convertir coordenadas del mouse considerando PAN y ZOOM
+      transformedX=(mouseX-windowWidth/2)/(zoomSimulacion*escalaBase)-panSimulacionX;
+      transformedY=(mouseY-windowHeight/2)/(zoomSimulacion*escalaBase)-panSimulacionY;
+      transformedObstaculoX=(mouseX-windowWidth/2)/(zoomSimulacion*escalaBase)-panSimulacionX+robotFisico.body.position.x;
+      transformedObstaculoY=(mouseY-windowHeight/2)/(zoomSimulacion*escalaBase)-panSimulacionY+robotFisico.body.position.y;   
+      transformedXbasico=(mouseX-windowWidth/2)/escalaBase;
+      transformedYbasico=(mouseY-0)/escalaBase;
+      if (!ejecutando) {
+        //Si se pincha en el botón AÑADIR OBSTÁCULO
+        if (transformedXbasico > -90-80 && transformedXbasico < -90+80 && transformedYbasico > 75 && transformedYbasico < 105) {         
+          //Crear nuevo obstáculo
+          let nuevoObstaculo = new Obstaculo(
+            transformedX + robotFisico.body.position.x, 
+            transformedY + robotFisico.body.position.y, 
+            80, 80, 0, false
+          );          
+          obstaculo.push(nuevoObstaculo);    
+          offsetX=nuevoObstaculo.body.position.x-transformedX;//Distancia entre ratón y punto de referencia del subBloque
+          offsetY=nuevoObstaculo.body.position.y-transformedY;
+          RectX=nuevoObstaculo.body.position.x; 
+          RectY=nuevoObstaculo.body.position.y; 
+          obstaculoSeleccionado = null;
+          obstaculoDesplazando = nuevoObstaculo; // ¡IMPORTANTE! No uses esto con MouseConstraint           
+          movidoDuranteEjecucion = true;       
+          return; 
+        }
+        //Si se pincha en el botón AÑADIR BARRERA
+        if (transformedXbasico>90-80 && transformedXbasico<90+80 && transformedYbasico>75 && transformedYbasico<105) { 
+          let nuevaBarrera = new Obstaculo(
+            transformedX + robotFisico.body.position.x, 
+            transformedY + robotFisico.body.position.y, 
+            80, 80, 0, true
+          );          
+          obstaculo.push(nuevaBarrera);    
+          offsetX=nuevaBarrera.body.position.x-transformedX;//Distancia entre ratón y punto de referencia del subBloque
+          offsetY=nuevaBarrera.body.position.y-transformedY;
+          RectX=nuevaBarrera.body.position.x; 
+          RectY=nuevaBarrera.body.position.y; 
+          obstaculoSeleccionado = null;
+          obstaculoDesplazando = nuevaBarrera; // ¡IMPORTANTE! No uses esto con MouseConstraint           
+          movidoDuranteEjecucion = true;       
+          return; 
+        }
+        //Si se pincha en cualquier obstáculo del tablero del robot
+        //Si hay un obstáculo seleccionado podemos girarlo o agrandarlo (obtenemos el modo según donde se pinche)
+        if (obstaculoSeleccionado!=null) {
+          obstaculoSeleccionado.modoTransformacion=obstaculoSeleccionado.colision();  
+          if (obstaculoSeleccionado.modoTransformacion>0 && obstaculoSeleccionado.modoTransformacion<6) {
+            obstaculoSeleccionado.body.isStatic=true;
+            if (obstaculoSeleccionado.modoTransformacion == 1) { // Para giro
+              let anguloInicial = atan2(transformedObstaculoY - obstaculoSeleccionado.body.position.y, transformedObstaculoX - obstaculoSeleccionado.body.position.x);
+              offsetAngulo = anguloInicial - obstaculoSeleccionado.body.angle;
+            }   
+          } else {
+            obstaculoSeleccionado=null;
+            obstaculoSeleccionado.body.isStatic=obstaculoSeleccionado.estatico;
+          }
+          return;
+        }      
+        // Revisa si se ha pinchado sobre alguno de los obstáculos del escenario...
+        for (let variable of obstaculo) {
+          if (variable.colision()==6) {
+            if (Crono>0) movidoDuranteEjecucion=true;
+            offsetX=variable.body.position.x-transformedX;
+            offsetY=variable.body.position.y-transformedY;
+            obstaculoDesplazando=variable;
+            RectX=obstaculoDesplazando.body.position.x; 
+            RectY=obstaculoDesplazando.body.position.y; 
+            obstaculoSeleccionado=null;
+            movidoDuranteEjecucion = true;   
+            return;
+          }
+        }
+        //Revisa si se ha pinchado sobre el robot
+        resultadoSeleccion=robotFisico.colision();
+        //Si se pincha en el robot...
+        if (robotSeleccionado==true) {
+          if (resultadoSeleccion==1) { 
+            anguloInicial=atan2(transformedY,transformedX);
+            offsetAngulo=anguloInicial-robotFisico.body.angle;
+            angleDragged=robotFisico.body.angle;
+            robotFisico.body.isStatic=true;
+            return;
+          } else if (resultadoSeleccion==0) { 
+            robotSeleccionado=false;
+            return;
+          }
+        }
+        if (resultadoSeleccion==2){
+          desplazandoRobot=true;
+          robotFisico.body.isStatic=true;
+          robotSeleccionado=false;
+          offsetX=robotFisico.body.position.x-transformedX;//Distancia entre ratón y origen del robot
+          offsetY=robotFisico.body.position.y-transformedY;
+          CrumblebotAnteriorX=robotFisico.body.position.x;
+          CrumblebotAnteriorY=robotFisico.body.position.y;
+          CrumX=robotFisico.body.position.x; 
+          CrumY=robotFisico.body.position.y; 
+          return;
+        }
+      }
+      //Si no, es porque se ha pinchado en la pantalla...
+      if (ejecutando==false) {
+        panningSimulacion=true;
+        panStartSimulacionX=mouseX;
+        panStartSimulacionY=mouseY;
+      } 
+      return;
+    }
+    // MODO EDICIÓN DE BLOQUES (modo == 4)
+    else if (modo == 4 ) {
+      // Convertir coordenadas del mouse considerando PAN y ZOOM
+      if (colorPickerOpen && bloqueEditando) {
+        mouseColorX=(mouseX-windowWidth/2+ANCHO_MARCO/2)/escalaBase; 
+        mouseColorY=int((mouseY-windowHeight/2+ALTO_MARCO/2)/escalaBase);
+        // Lógica de selección de color
+        let pickerMouseX = mouseX - (windowWidth / 2 - ANCHO_MARCO / 2 * escalaBase);
+        let pickerMouseY = mouseY - (windowHeight / 2 - ALTO_MARCO / 2 * escalaBase);
+        let scaledX = pickerMouseX / escalaBase;
+        let scaledY = pickerMouseY / escalaBase;
+        // Verificar si se hizo clic en el selector de color (H y S)
+        if (mouseColorX >= PICKER_X && mouseColorX <= PICKER_X + ANCHO_PICKER && 
+            mouseColorY >= PICKER_Y - ALTO_PICKER && mouseColorY <= PICKER_Y) {
+          hue = Math.floor(map(mouseColorX - PICKER_X, 0, ANCHO_PICKER, 0, 239));
+          saturation = Math.floor(map(PICKER_Y - mouseColorY, 0, ALTO_PICKER, 0, 240)); 
+          currentColor = HSBtoRGB(hue, saturation, getBrightness(currentColor));
+          updateColor();
+          return;
+        }
+        // Verificar si se hizo clic en el deslizador de brillo
+        let sliderX = PICKER_X + ANCHO_PICKER + 10;
+        if (mouseColorX >= sliderX && mouseColorX <= sliderX + 10 && 
+            mouseColorY >= PICKER_Y - ALTO_PICKER && mouseColorY <= PICKER_Y) {
+          brightness = Math.floor(map(PICKER_Y - mouseColorY, 0, ALTO_PICKER, 0, 240));
+          currentColor = HSBtoRGB(getHue(currentColor), getSaturation(currentColor), brightness);
+          updateColor();
+          return;
+        }
+        // Botón "Define Custom Colours"
+        if (scaledX > 10 && scaledX < 205 && scaledY > 250 && scaledY < 270) {
+          //customColorActivo = !customColorActivo;
+          return;
+        }
+        // Botón "OK"
+        if (scaledX > 10 && scaledX < 100 && scaledY > 280 && scaledY < 300) {
+          colorPickerOpen = false;
+          bloqueEditando.dato[subBloqueEditando] = currentColor.toString("#rrggbb");
+          console.log(bloqueEditando.dato[subBloqueEditando]);
+          bloqueEditando=null;
+          return;
+        }
+        // Botón "Cancel"
+        if (scaledX > 115 && scaledX < 205 && scaledY > 280 && scaledY < 300) {
+          colorPickerOpen = false;
+          bloqueEditando=null;
+          return;
+        }
+        // Selección de color básico
+        if (scaledX > 10 && scaledX < 170 && scaledY > 40 && scaledY < 160) {
+          let col = int((scaledX - 10) / 25);
+          let fila = int((scaledY - 40) / 20);
+          if (col >= 0 && col < 8 && fila >= 0 && fila < 6) {
+            BASIC_COLORSeleccionado = fila * 8 + col;
+            currentColor = BASIC_COLOR[BASIC_COLORSeleccionado];
+            updateColor();
+          }
+          return;
+        }  
+        // Selección de color personalizado
+        if (scaledX > 10 && scaledX < 90 && scaledY > 200 && scaledY < 240) {
+          let col = int((scaledX - 10) / 25);
+          let fila = int((scaledY - 200) / 20);
+          if (col >= 0 && col < 4 && fila >= 0 && fila < 4) {
+            customColorSeleccionado = fila * 4 + col;
+            if (customColor[customColorSeleccionado]) {
+              currentColor = customColor[customColorSeleccionado];
+              updateColor();
+            }
+          }
+          return;
+        }     
+        // Selector de color HSB
+        if (customColorActivo && scaledX > PICKER_X && scaledX < PICKER_X + ANCHO_PICKER && 
+            scaledY > PICKER_Y - ALTO_PICKER && scaledY < PICKER_Y) {
+          hue = map(scaledX - PICKER_X, 0, ANCHO_PICKER, 0, 239);
+          saturation = map(PICKER_Y - scaledY, 0, ALTO_PICKER, 0, 240);
+          currentColor = HSBtoRGB(hue, saturation, brightness);
+          updateColor();
+          return;
+        }
+        // Barra de brillo
+        if (customColorActivo && scaledX > PICKER_X + ANCHO_PICKER + 10 && 
+            scaledX < PICKER_X + ANCHO_PICKER + 20 && 
+            scaledY > PICKER_Y - ALTO_PICKER && scaledY < PICKER_Y) {
+          brightness = map(PICKER_Y - scaledY, 0, ALTO_PICKER, 0, 240);
+          currentColor = HSBtoRGB(hue, saturation, brightness);
+          updateColor();
+          return;
+        }    
+        // Botón "Add to Custom Colours"
+        if (customColorActivo && scaledX > PICKER_X && scaledX < PICKER_X + ANCHO_PICKER + 20 && 
+            scaledY > 280 && scaledY < 300) {
+          // Encontrar el primer slot vacío o reemplazar el seleccionado
+          if (customColorSeleccionado < 16) {
+            customColor[customColorSeleccionado] = currentColor;
+          } else {
+            for (let i = 0; i < customColor.length; i++) {
+              if (!customColor[i]) {
+                customColor[i] = currentColor;
+                customColorSeleccionado = i;
+                break;
+              }
+            }
+          }
+          return;
+        }
+        return;
+      } else {
+        // Lógica normal de edición de bloques (cuando el selector de color está cerrado)
+        transformedX = (mouseX - windowWidth / 2) / (zoomCodigo * escalaBase) - panCodigoX;
+        transformedY = (mouseY - windowHeight / 2) / (zoomCodigo * escalaBase) - panCodigoY;
+      }
+      // Si hay un código Seleccionado 2 es porque hemos pinchado con el botón derecho sobre un bloque y se ha abierto un desplegable
+      if (bloqueSeleccionado !== null && desplegableBloque) {
+        // Si está abierto el desplegable para Duplicar/Eliminar bloques
+        // Si se pincha en duplicar bloques
+        if (mouseX > xDesplegable + 10 * escalaBase && 
+          mouseX < xDesplegable + 200 * escalaBase && 
+          mouseY > yDesplegable && 
+          mouseY < yDesplegable + 25 * escalaBase) {  
+          let copia;
+          bloquesVirtuales = [];
+          for (let variable of bloquesSeleccionados) {
+            copia = variable.clonarBloque();
+            bloquesVirtuales.push(copia);
+          }  
+          for (let i = 0; i < bloquesSeleccionados.length; i++) {
+            if (bloquesSeleccionados[i].anteriorClon === -1) {
+              bloquesVirtuales[i].anterior = null;
+            } else {
+              bloquesVirtuales[i].anterior = bloquesVirtuales[bloquesSeleccionados[i].anteriorClon];
+            }
+            if (bloquesSeleccionados[i].siguienteClon === -1) {
+              bloquesVirtuales[i].siguiente = null;
+            } else {
+              bloquesVirtuales[i].siguiente = bloquesVirtuales[bloquesSeleccionados[i].siguienteClon];
+            }          
+            if (bloquesSeleccionados[i].padreClon === -1) {
+              bloquesVirtuales[i].padre = null;
+            } else {
+              bloquesVirtuales[i].padre = bloquesVirtuales[bloquesSeleccionados[i].padreClon];
+            }            
+            if (bloquesSeleccionados[i].bucleSiguienteClon === -1) {
+              bloquesVirtuales[i].bucleSiguiente = null;
+            } else {
+                bloquesVirtuales[i].bucleSiguiente = bloquesVirtuales[bloquesSeleccionados[i].bucleSiguienteClon];
+            }           
+            // Preparamos las variables para un posible posterior clonado
+            bloquesSeleccionados[i].anteriorClon = -1;
+            bloquesSeleccionados[i].siguienteClon = -1;
+            bloquesSeleccionados[i].padreClon = -1;
+            bloquesSeleccionados[i].bucleSiguienteClon = -1;
+          }        
+          for (let i = 0; i < bloquesVirtuales.length; i++) {
+            // Preparamos las variables para un posible posterior clonado
+            bloquesVirtuales[i].anteriorClon = -1;
+            bloquesVirtuales[i].siguienteClon = -1;
+            bloquesVirtuales[i].padreClon = -1;
+            bloquesVirtuales[i].bucleSiguienteClon = -1;             
+            // Añadimos la copia a los códigos del programa
+            codigo.push(bloquesVirtuales[i]);
+          }
+          desplegableBloque=false;  
+          return;
+        }    
+        // Si se pincha en eliminar bloques
+        if (mouseX > xDesplegable + 10 * escalaBase && 
+          mouseX < xDesplegable + 200 * escalaBase && 
+          mouseY > yDesplegable + 25 * escalaBase && 
+          mouseY < yDesplegable + 50 * escalaBase) {
+          eliminarBloques(); 
+          bloquesSeleccionados=[];
+          desplegableBloque=false;   
+          return;
+        }
+      }
+      // Si pincho sobre uno de los bloques del menú de categorías...
+      for (let i = 0; i < codigoCategoria.length; i++) {
+        if (codigoCategoria[i].colision(transformedXbasico, transformedYbasico, true) !== null) {
+          menu = i;
+          return;
+        }
+      }
+      // Si pincho sobre uno de los bloques del MENÚ DE LA IZQUIERDA...
+      for (let bloque of codigoMenu) { // Recorro todos los bloques del Menú
+        // Solo analizamos los que pertenecen al menú de bloques seleccionado anteriormente
+        if (bloque.categoria === menu) { // Pero sólo chequeo aquellos bloques en los que la categoría coincide con el menú que hay seleccionado
+          if (bloque.colision(transformedXbasico, transformedYbasico, true) !== null) {
+            if (bloque.nombre === "AddNewVariableButton" && menu==3) { // Si pinchamos el botón Crear nueva variable...
+              crearVariable("My Var");
+              bloqueEditando = codigoVariables[codigoVariables.length - 1];
+            } else {
+              let ident = bloque.id;
+              offsetX = Math.floor(bloque.x - transformedXbasico); // Distancia entre ratón y punto de referencia del subBloque
+              offsetY = Math.floor(bloque.y - transformedYbasico);
+                      
+              let nuevoBloque = new Bloque(
+                Math.floor((transformedX + offsetX) / zoomCodigo),
+                Math.floor((transformedY + offsetY) / zoomCodigo),
+                menu,
+                ident,
+                t[menu][ident],
+                false,
+                true
+              );      
+              codigo.push(nuevoBloque); // Crea un nuevo bloque para incorporar a código       
+              if (bloque.nombre === "IfElseBlock") { // Si se trata de un bloque if/else crea sus correspondiente bloque else y vincula ambos
+                let bloqueElse = new Bloque(
+                  bloque.x,
+                  bloque.y,
+                  menu,
+                  ident + 1,
+                  t[menu][ident + 1],
+                  false,
+                  true
+                );     
+                codigo.push(bloqueElse); // Crea un nuevo bloque para incorporar al código
+                codigo[codigo.length - 1].anterior = codigo[codigo.length - 2];
+                codigo[codigo.length - 1].num = cont; // Añade un número al bloque creado
+                cont++;
+                codigo[codigo.length - 2].siguiente = codigo[codigo.length - 1];
+                codigo[codigo.length - 2].num = cont; // Añade un número al bloque creado
+                cont++;
+                bloqueSeleccionado = codigo[codigo.length - 2];
+              } else {
+                bloqueSeleccionado = codigo[codigo.length - 1];
+              }
+              // Si el bloque es un bloquesStart se añade un nuevo hilo
+              if (bloqueSeleccionado.nombre === "WhenRunBlock") {
+                bloquesStart.push(bloqueSeleccionado);
+                bloqueEjecutando = bloqueSeleccionado;
+              }                
+              // Deja el bloque seleccionado como único en la LISTA de Seleccionados
+              bloqueSeleccionado.seleccionBloquesDependientes();
+              codigo[codigo.length - 1].num = cont; // Añade un número al bloque creado
+              cont++;
+            }           
+            return;
+          }
+        }
+      }
+      // Si hemos pinchado en la pantalla. Si había un bloque que se estaba editando se cierra.
+      if (bloqueEditando !== null) cerrarEdicionTexto();
+      // ***** COMPROBAMOS SI SE HA PINCHADO EN ALGÚN BLOQUE DEL ESCENARIO ******
+      // Lo hacemos con una función porque esta, también servirá para la selección con el botón derecho del ratón
+      bloqueSeleccionado = seleccionBloque(transformedX, transformedY);
+      if (bloqueSeleccionado !== null) return;
+      // ***********************************************************************
+      // Si pincho sobre el bloque de la VARIABLE de la izquierda...
+      for (let bloque of [...codigoVariables]) {
+        if (bloque.colision(transformedXbasico, transformedYbasico, true) !== null) {
+          offsetX = Math.floor(bloque.x - transformedXbasico); // Distancia entre ratón y punto de referencia del subBloque
+          offsetY = Math.floor(bloque.y - transformedYbasico);       
+          let nuevoBloqueVariable = new Bloque(
+            transformedX + offsetX,
+            transformedY + offsetY,
+            3,
+            4,
+            BOTON_VARIABLE,
+            false,
+            true
+          );      
+          codigo.push(nuevoBloqueVariable); // Crea un nuevo bloque para incorporar a código
+          codigo[codigo.length - 1].texto[0] = bloque.texto[0];
+          codigo[codigo.length - 1].AxTexto[0] = bloque.AxTexto[0];
+          codigo[codigo.length - 1].variablePadre = bloque; // Vinculamos su VARIABLE para que todos los bloques incorporados tengan un valor común
+          bloqueSeleccionado = codigo[codigo.length - 1];
+          bloqueSeleccionado.seleccionBloquesDependientes();
+          return;
+        }
+      }
+      for (let bloque of [...botonesVariables]) {
+        if (bloque.colision(transformedXbasico, transformedYbasico, true) !== null && menu==3) {
+          if (bloque.boton === true) {
+            // Si se trata de un botón DELETE. Borramos el propio bloque y todos los bloques vinculados: VARIABLE y DELETE
+            if (bloque.id === 100) {
+              let index = botonesVariables.indexOf(bloque);
+                      
+              // Borramos el bloque RENAME asociado
+              let siguienteIndex = botonesVariables.indexOf(bloque.siguiente);
+              if (siguienteIndex > -1) {
+                botonesVariables.splice(siguienteIndex, 1);
+              }        
+              // Borra todas las variables existentes en el escenario
+              for (let bloque2 of [...codigo]) {
+                let resultado = bloque2.borrarVariables(bloque.padre); // Aquí el bloque padre es la propia variable del menú izquierdo
+                if (resultado !== null) {
+                  let bloqueIndex = codigo.indexOf(resultado);
+                  if (bloqueIndex > -1) {
+                    codigo.splice(bloqueIndex, 1);
+                  }
+                }
+              }                      
+              // Borramos la propia variable
+              let padreIndex = codigoVariables.indexOf(bloque.padre);
+              if (padreIndex > -1) {
+                codigoVariables.splice(padreIndex, 1);
+              }                    
+              // Borramos el propio botón DELETE
+              let bloqueIndex = botonesVariables.indexOf(bloque);
+              if (bloqueIndex > -1) {
+                botonesVariables.splice(bloqueIndex, 1);
+              }                     
+              altoMenu[3] = altoMenu[3] - codigoMenu[codigoMenu.length - 1].grosorTotal - SEPARACION_BLOQUES_MENU; // Calcula el alto del menú                    
+              // Movemos hacia arriba todos los bloque inferiores al borrado
+              for (let i = index; i < botonesVariables.length; i = i + 2) {
+                botonesVariables[i].y = botonesVariables[i].y - Math.floor(botonesVariables[i].grosorBloque + SEPARACION_BLOQUES_MENU);
+                botonesVariables[i].siguiente.y = botonesVariables[i].siguiente.y - Math.floor(botonesVariables[i].siguiente.grosorBloque + SEPARACION_BLOQUES_MENU);
+                botonesVariables[i].padre.y = botonesVariables[i].padre.y - Math.floor(botonesVariables[i].padre.grosorBloque + SEPARACION_BLOQUES_MENU);
+              }
+              return;
+            } 
+            // Si se trata de un botón RENAME...
+            else if (bloque.id === 200) {
+              bloqueEditando = bloque.padre; // Vincula para editar texto el bloque padre (VARIABLE EN SÍ)
+              return;
+            }
+          }
+        }
+      }
+      // A estas alturas, si hemos llegado aquí es porque no hemos pinchado en ningún objeto; es decir, hemos pinchado en la pantalla.
+      // Si la zona pinchada está fuera de las áreas de los menús, se produce el PANEADO
+      let anchoRect;
+      if (menu < 5) {
+        anchoRect = anchoMenu[0] + 10;
+      } else {
+        anchoRect = anchoMenu[5] + 10;
+      }
+      if (!((mouseX < anchoRect && mouseY < altoMenu[menu]) || mouseY < 0)) {
+        panningCodigo = true;
+        panStartCodigoX = mouseX;
+        panStartCodigoY = mouseY;
+      }
+    }  //***************** MODO CONFIGURACIÓN *************************************************
+    else if (modo == 3) {  
+      // Transformar coordenadas del mouse (teniendo en cuenta zoom y desplazamiento)
+      transformedXbasico = (mouseX - windowWidth/2) / (zoomConfiguracion * escalaBase / 1.5);
+      transformedYbasico = (mouseY - windowHeight/2) / (zoomConfiguracion * escalaBase / 1.5);
+      
+      // Si se presionan los pulsadores SW1 o SW2
+      if (dist(transformedXbasico, transformedYbasico, -107, 266) < 10) {
+        elemento[4].valorElemento = 255;
+        return;
+      }
+      if (dist(transformedXbasico, transformedYbasico, 224, 33) < 10) {
+        elemento[6].valorElemento = 255;
+        return;
+      }
+      // Si se presiona el interruptor del robot
+      if (transformedYbasico > 270 && transformedYbasico < 280) {
+        if (transformedXbasico > 40 && transformedXbasico < 50 && ejecutando == true) {
+          botonStop();
+          return;
+        } else if (transformedXbasico > 75 && transformedXbasico < 85 && ejecutando == false) {
+          botonPlay();
+          return;
+        }
+      }
+      // Si se presiona el sensor de ultrasonidos
+      if (transformedXbasico > ULTRASONIC_X - ANCHO_ULTRASONIC/2 && 
+          transformedXbasico < ULTRASONIC_X + ANCHO_ULTRASONIC/2 && 
+          transformedYbasico > ULTRASONIC_Y - ALTO_ULTRASONIC/2 && 
+          transformedYbasico < ULTRASONIC_Y + ALTO_ULTRASONIC/2) {
+        robot.ultrasonidosConectado = true;
+        return;
+      } else if (transformedXbasico > ULTRASONIDOS_X - ANCHO_ULTRASONIDOS/2 && 
+                transformedXbasico < ULTRASONIDOS_X + ANCHO_ULTRASONIDOS/2 && 
+                transformedYbasico > ULTRASONIDOS_Y - ALTO_ULTRASONIDOS/2 && 
+                transformedYbasico < ULTRASONIDOS_Y + ALTO_ULTRASONIDOS/2) {
+        robot.ultrasonidosConectado = false;
+        return;
+      }
+      // Si se pincha en un jumper
+      for (let i = 0; i < jumpers.length; i++) {
+        let variable = jumpers[i];
+        jumperSeleccionado = variable.desconectar(transformedXbasico, transformedYbasico);
+        if (jumperSeleccionado != null) return;
+      }
+      // Si se pincha en el extremo de un cable
+      for (let i = 0; i < conector.length; i++) {
+        let variable = conector[i];
+        conectorSeleccionado = variable.desconectar(transformedXbasico, transformedYbasico);
+        if (conectorSeleccionado != null) return;
+      }
+    } //**************** MODO SELECCIÓN DE TAPETE ++++++++++++++++++++++++
+    else if (modo == 6) {
+      // Ajustar coordenadas por escala
+      let mx = mouseX / escalaBase;
+      let my = mouseY / escalaBase + offsetYBarra;  
+      // Verificar clic en thumbnails
+      for (let i = 0; i < thumbnails.length; i++) {
+        if (mx >= xPos[i] && mx <= xPos[i] + anchoThumbnail &&
+            my >= yPos[i] && my <= yPos[i] + altoThumbnail) {
+          indiceTapeteSeleccionado = i;
+          shapeCargado=false;
+          nombreFondo=archivosSVG[i];
+          cargarFondo();
+        }
+      }  
+      // Verificar clic en barra de scroll (si existe)
+      if (totalThumbnailsHeight > windowHeight) {
+        let barraX = windowWidth - 40;
+        if (mouseX >= barraX && mouseX <= barraX + 20 &&
+            mouseY >= 60 && mouseY <= windowHeight - 40) {
+          // Iniciar arrastre de scroll
+          arrastrandoScroll = true;
+          clickScrollY = mouseY;
+          scrollOffsetInicial = offsetYBarra;
+        }
+      } 
+      // Si se hace clic fuera de todo, deseleccionar
+      indiceTapeteSeleccionado = -1;
+    } 
+
+  // ******************** SI SE PULSA EL BOTÓN DERECHO *********************
+  } else if (mouseButton === RIGHT) {
+    if (modo === 4) {
+      transformedX = Math.floor((mouseX - windowWidth / 2) / (zoomCodigo * escalaBase) - panCodigoX);
+      transformedY = Math.floor((mouseY - windowHeight / 2) / (zoomCodigo * escalaBase) - panCodigoY);
+      bloqueSeleccionado = seleccionBloque(transformedX, transformedY);        
+      if (bloqueSeleccionado !== null) { 
+        desplegableBloque=true;
+        xDesplegable = mouseX; 
+        yDesplegable = mouseY;
+      }
+    }    
+  } 
+}
+
+// PROCEDIMIENTO PARA SELECCIONAR, TANTO SI ES PARA ARRASTRAR (botonDrch=false) COMO SI ES PARA BORRAR/CLONAR (botonDrch=true)
+function seleccionBloque(transformedX, transformedY) {
+  // Si pincho sobre uno de los bloques del escenario... buscar el bloque más profundo (subbloques) que colisiona
+  for (let bloque of codigo) {    
+    if (bloque.nombre !== "ElseBlock") { // Impide que en el bloque else se pueda seleccionar
+      // Comprueba si el ratón está sobre un bloque (parte superior si es un bucle)
+      bloqueSeleccionado = bloque.colision(transformedX, transformedY, true); // true indica que se va a analizar el contacto con la parte superior
+    }
+    // Si hay selección de un bloque. Comprobamos si hay selección de alguno de los parámetros interiores del bloque
+    if (bloqueSeleccionado != null) {
+      if (bloqueSeleccionado.nombre === "WhenRunBlock") {
+        bloqueStartSeleccionado = bloqueSeleccionado;
+      } 
+      offsetX = bloque.x - transformedX; // Distancia entre ratón y origen de bloque
+      offsetY = bloque.y - transformedY;
+      // No queremos que la siguiente línea tenga efecto en los bloques del menú, ya que no podemos editar datos en esos bloques
+      if (bloqueSeleccionado.enEscenario === true) { // No queremos que la siguiente línea tenga efecto en los bloques del menú
+        bloqueSeleccionado = bloqueSeleccionado.colisionDatos(transformedX, transformedY); // Busca si el puntero está en parámetros/datos en los bloques y ejecuta su edición si los detecta
+      } 
+      // Si hay algún bloque o subBloque seleccionado
+      if (bloqueSeleccionado != null) {  
+        bloqueSeleccionado.seleccionBloquesDependientes();   
+        offsetX = bloqueSeleccionado.x - transformedX; // Distancia entre ratón y punto de referencia del subBloque
+        offsetY = bloqueSeleccionado.y - transformedY;  
+        // Cerramos el cuadro de texto si hubiera alguno activo
+        if (bloqueEditando != null) cerrarEdicionTexto();  
+        inicioDesplazarBloque = true;
+        mouseOrigenX = mouseX;
+        mouseOrigenY = mouseY;
+      } 
+      break;
+    }
+  }
+  return bloqueSeleccionado;
+}
+
+function mouseDragged() {
+  if (modo == 5) { // MODO SIMULACIÓN
+    if (panningSimulacion) {
+      panSimulacionX+=(mouseX-panStartSimulacionX)/(zoomSimulacion*escalaBase);
+      panSimulacionY+=(mouseY-panStartSimulacionY)/(zoomSimulacion*escalaBase);
+      panStartSimulacionX=mouseX;
+      panStartSimulacionY=mouseY;
+      return;
+    } 
+    // 1. GESTIÓN DE OBSTÁCULOS    
+    transformedX = (mouseX - windowWidth / 2) / (zoomSimulacion * escalaBase) - panSimulacionX;
+    transformedY = (mouseY - windowHeight / 2) / (zoomSimulacion * escalaBase) - panSimulacionY;
+    transformedObstaculoX = transformedX + robotFisico.body.position.x;
+    transformedObstaculoY = transformedY + robotFisico.body.position.y;
+     //Si hay un obstáculo seleccionado para editar su ángulo y dimensión
+    if (obstaculoSeleccionado!=null) {
+      if (obstaculoSeleccionado.modoTransformacion==1) {
+      // Para giro: calculamos el nuevo ángulo y aplicamos el offset
+        let nuevoAngulo=atan2(transformedObstaculoY-obstaculoSeleccionado.body.position.y,transformedObstaculoX-obstaculoSeleccionado.body.position.x);
+        obstaculoSeleccionado.body.angle=nuevoAngulo-offsetAngulo;
+      } else {
+        // Convertimos el movimiento a coordenadas locales del rectángulo
+        let dx=(mouseX-pmouseX)/(zoomSimulacion*escalaBase);
+        let dy=(mouseY-pmouseY)/(zoomSimulacion*escalaBase);        
+        // Rotamos el vector de movimiento inversamente al ángulo del rectángulo
+        let cosAng=cos(-obstaculoSeleccionado.body.angle);
+        let sinAng=sin(-obstaculoSeleccionado.body.angle);
+        let dxLocal=dx*cosAng-dy*sinAng;
+        let dyLocal=dx*sinAng+dy*cosAng;        
+        // Aplicamos solo el componente necesario (X para ensanchar, Y para alargar)
+        if (obstaculoSeleccionado.modoTransformacion==2) {
+          obstaculoSeleccionado.ensanchar(dxLocal*2);
+        } else if (obstaculoSeleccionado.modoTransformacion==3) {
+          obstaculoSeleccionado.ensanchar(-dxLocal*2);
+        } else if (obstaculoSeleccionado.modoTransformacion==4) {
+          obstaculoSeleccionado.alargar(dyLocal*2);
+        } else if (obstaculoSeleccionado.modoTransformacion==5) {
+          obstaculoSeleccionado.alargar(-dyLocal*2);
+        }
+      }
+      return;
+    }//Si hay un obstáculo seleccionado para ser arrastrado
+    else if (obstaculoDesplazando!=null) {
+      RectX=transformedX+offsetX;
+      RectY=transformedY+offsetY;
+      return;
+    }
+    // 3. GESTIÓN DE BOMBILLA
+    else if (desplazandoBulb) {
+      bulbX=transformedX+offsetX;
+      bulbY=transformedY+offsetY;
+      return;
+    }    
+    // PAN DEL ESCENARIO
+    else if (robotSeleccionado) {//Si el robot está seleccionado modificamos su ángulo
+      if (Crono>0) movidoDuranteEjecucion=true;
+      angleDragged=(atan2(transformedY,transformedX)-offsetAngulo);
+      robotFisico.body.angle=(atan2(transformedY,transformedX)-offsetAngulo);
+    } else if (desplazandoRobot==true) {//Si el robot setá siendo desplazado cambiamos su posición
+      movidoDuranteEjecucion=true;
+      CrumX=transformedX+offsetX;
+      CrumY=transformedY+offsetY;
+      if (robotFisico.body.position.x<-anchoMundo/2.5|| robotFisico.body.position.x>anchoMundo/2.5 || robotFisico.body.position.y<-altoMundo/2.5 || robotFisico.body.position.y>altoMundo/2.5) {
+        desplazandoRobot=false;
+        Matter.Body.setPosition(robotFisico.body, { x: 0 , y: 0 });
+        mensaje="Robot fuera de los límites del mundo";
+        inicioMensaje=millis();      
+      }
+      return;  
+    }
+  } // MODO EDICIÓN DE BLOQUES (modo == 4)
+  else if (modo == 4) {
+    if (colorPickerOpen) {
+      // Si el selector de color está abierto, no hacer pan
+      return;
+    }   
+    // PAN del área de código
+    if (panningCodigo) {
+      panCodigoX += (mouseX - panStartCodigoX) / (zoomCodigo * escalaBase);
+      panCodigoY += (mouseY - panStartCodigoY) / (zoomCodigo * escalaBase);
+      panStartCodigoX = mouseX;
+      panStartCodigoY = mouseY;
+    } else if (inicioDesplazarBloque == true && (mouseOrigenX != mouseX || mouseOrigenY != mouseY)) {
+      // Detecta si se ha producido movimiento del ratón
+      if (bloqueSeleccionado.tipo == '_') {
+        desconectar(bloqueSeleccionado); // Lo desconectamos de su bloque superior
+      } 
+      // Si no es un bloque normal y tiene padre (es un subBloque)...
+      else if (bloqueSeleccionado.padre != null) {
+        // Recorro todos los subBloques del padre (bloque que contiene el subBloque)
+        for (let i = 0; i < bloqueSeleccionado.padre.subBloque.length; i++) {
+          if (bloqueSeleccionado == bloqueSeleccionado.padre.subBloque[i]) {
+            bloqueSeleccionado.padre.subBloque[i] = null;
+            bloqueSeleccionado.padre.AxDato[i] = bloqueSeleccionado.padre.calculoAnchoDato(bloqueSeleccionado.padre.dato[i]);
+            bloqueSeleccionado.padre.calculoDimensiones();
+            bloqueSeleccionado.padre.calculoGrosorBucle();
+            bloqueSeleccionado.padre.actualizarCoordenadas();
+            
+            if (bloqueSeleccionado.padre.padre != null) {
+              bloqueSeleccionado.padre.padre.calculoGrosorBucle();
+              bloqueSeleccionado.padre.padre.actualizarCoordenadas();
+            }
+            break;
+          }
+        }  
+      }
+      bloqueSeleccionado.seleccionBloquesDependientes();
+      inicioDesplazarBloque = false;
+      return;
+    } else if (bloqueSeleccionado != null && codigo != null) { // Nos aseguramos que hay un bloque seleccionado
+      transformedX = Math.floor((mouseX - windowWidth / 2) / (zoomCodigo * escalaBase) - panCodigoX);
+      transformedY = Math.floor((mouseY - windowHeight / 2) / (zoomCodigo * escalaBase) - panCodigoY);
+      bloqueSeleccionado.x = transformedX + offsetX;
+      bloqueSeleccionado.y = transformedY + offsetY;
+      if (bloqueSeleccionado.tipo == '_') {
+        bloqueSeleccionado.actualizarCoordenadas(); // Modifica las coordenadas de los bloques conectados debajo del desplazado
+      }    
+      seleccion = null; // Bloque o parte superior en caso de bucles
+      seleccion2 = null; // subBloques
+      seleccion3 = null; // Parte inferior de Bucles    
+      // Recorremos todos los bloques
+      for (let bloque of codigo) {
+        // Buscamos solape en otros bloques o en la parte superior de los bucles
+        seleccion = bloque.colision(bloqueSeleccionado.x, bloqueSeleccionado.y, true);  
+        // Si se ha encontrado un bloque, si el bloque arrastrado es de tipo edición de texto o LISTA
+        // Comprobamos colisiones de bloques dentro de los parámetros del bloque seleccionado anteriormente
+        if (seleccion != null) { 
+          if (bloqueSeleccionado.tipo == 'o' || bloqueSeleccionado.tipo == 'h') {
+            seleccion2 = seleccion.colisionInterior(bloqueSeleccionado.x, bloqueSeleccionado.y, bloqueSeleccionado.tipo);        
+          }
+          break; // Si hay selección no tiene sentido continuar con el bucle for
+        }
+        // Si el bloque seleccionado es de tipo normal, buscamos solape en las zonas inferiores de los bucles
+        if (bloqueSeleccionado.tipo == '_') {
+          seleccion3 = bloque.colision(bloqueSeleccionado.x, bloqueSeleccionado.y, false);     
+          if (seleccion3 != null) {
+            if (seleccion3.nombre === "IfElseBlock") {
+              seleccion3 = null; // Si el bloque es if/else no se podrá seleccionar en la parte del else
+            }
+            break; // Si hay selección no tiene sentido continuar con el bucle for
+          }
+        }    
+      }
+    }
+  } //MODO CONFIGURACIÓN
+  else if (modo === 3) {
+    transformedXbasico = Math.floor((mouseX - windowWidth / 2) / (zoomConfiguracion * escalaBase / 1.5));
+    transformedYbasico = Math.floor((mouseY - windowHeight / 2) / (zoomConfiguracion * escalaBase / 1.5)); 
+    if (jumperSeleccionado != null) {
+        jumperSeleccionado.x = transformedXbasico + offsetX;
+        jumperSeleccionado.y = transformedYbasico + offsetY; 
+        return;
+    } else if (conectorSeleccionado != null) {
+        conectorSeleccionado.x = transformedXbasico + offsetX;
+        conectorSeleccionado.y = transformedYbasico + offsetY;
+        return;
+    }    
+  } // MODO SELECCIÓN DE TAPETE (modo == 6)
+  else if (modo == 6) {
+    if (draggingScrollBar) {
+      let deltaY = mouseY - dragStartY;
+      let maxOffset = totalThumbnailsHeight - (windowHeight / escalaBase - 100);
+      offsetYBarra = constrain(offsetYBarra + deltaY, 0, maxOffset);
+      dragStartY = mouseY;
+    }
+  }
+}
+
+function mouseReleased() {
+  if (modo == 5) { // MODO SIMULACIÓN
+    panningSimulacion=false;
+    desplazandoBulb=false;
+    elemento[4].valorElemento=0;//Desactiva el BOTÓN SW1
+    elemento[6].valorElemento=0;//Desactiva el BOTÓN SW2
+    //Si se estaba desplazando un obstáculo 
+    if (obstaculoDesplazando!=null) {
+      //Si realmente no se ha producido arrastre del obstáculo, hacemos que se seleccione para editar (dimensionar/girar)
+      if (mouseX==mouseOrigenX && mouseY==mouseOrigenY) {
+        obstaculoSeleccionado=obstaculoDesplazando;
+        obstaculoSeleccionado.isStatic=true;
+      } else {
+        obstaculoDesplazando.body.isStatic=obstaculoDesplazando.estatico;
+      }
+      Matter.Body.setPosition(obstaculoDesplazando.body, { 
+        x: RectX, 
+        y: RectY 
+      });
+      obstaculoDesplazando=null;
+      return;
+    }
+    // Liberar robot
+    if (desplazandoRobot) {
+      if (mouseX==mouseOrigenX && mouseX==mouseOrigenX) robotSeleccionado=true;
+      Matter.Body.setPosition(robotFisico.body, { 
+        x: CrumX, 
+        y: CrumY 
+      });
+      robotFisico.body.isStatic=false;
+      desplazandoRobot = false;
+      return;  
+    }
+    if (robotSeleccionado) {
+      robotFisico.body.isStatic=false;
+      //robotFisico.body.angle=angleDragged;
+      robotSeleccionado = false;
+    }
+    // Liberar bombilla
+    if (desplazandoBulb) {
+      desplazandoBulb = false;
+    }
+  } // MODO CONFIGURACIÓN DEL ROBOT (modo == 3)
+  else if (modo == 3) {
+    elemento[4].valorElemento=0;//Desactiva el pulsador SW1
+    elemento[6].valorElemento=0;//Desactiva el pulsador SW2
+    // Conectar jumper o conector al soltar
+    if (jumperSeleccionado != null) {
+      jumperSeleccionado.conectar();
+      jumperSeleccionado = null;
+    } 
+    if (conectorSeleccionado != null) {
+      conectorSeleccionado.conectar();
+      conectorSeleccionado = null;
+    }
+  } // MODO DE EDICIÓN DE BLOQUES
+  else if (modo == 4) {
+    panningCodigo = false;
+    desplazandoVentanaColor = false;
+    if (bloqueSeleccionado != null) { // Nos aseguramos que hay un bloque seleccionado 
+      // Convertir coordenadas del mouse considerando PAN y ZOOM
+      transformedXbasico = Math.floor((mouseX + offsetX));
+      transformedYbasico = Math.floor((mouseY + offsetY));
+      let anchoRect;
+      if (menu < 5) {
+        anchoRect = anchoMenu[0] + 10;
+      } else {
+        anchoRect = anchoMenu[5] + 10;
+      }
+      // Si soltamos el bloque fuera de la pantalla activa
+      if ((transformedXbasico < anchoRect + 5 && transformedYbasico < (altoMenu[menu] + 5) * escalaBase) || 
+          transformedYbasico < ALTO_MENU_SUPERIOR) {
+        // Si el bloque es un bloquesStart lo elimina de la lista de bloques de inicio
+        if (bloqueSeleccionado.nombre === "WhenRunBlock") {
+          // Encontrar y eliminar el bloque de bloquesStart
+          let index = -1;
+          for (let i = 0; i < bloquesStart.length; i++) {
+            if (bloquesStart[i] === bloqueSeleccionado) {
+              index = i;
+              break;
+            }
+          }
+          if (index > -1) {
+            bloquesStart.splice(index, 1);
+          }
+        }  
+        //Elimina los bloques seleccionados
+        eliminarBloques();  
+        bloquesSeleccionados=[];         
+      } else if (inicioDesplazarBloque == false) {
+        if (bloqueSeleccionado.nombre === "WhenRunBlock") {
+          bloqueStartSeleccionado = bloqueSeleccionado;
+        }
+        // Si hay selección en la parte inferior de un bucle...
+        if (seleccion3 != null && seleccion3 != undefined && seleccion3.nombre != "DoForeverBlock") {
+          conectar(bloqueSeleccionado, seleccion3, false); // Lo conectamos (false indica parte inferior)
+          seleccion3 = null;
+        // Si hay selección de un subBloque...
+        } else if (seleccion2 != null && seleccion2 != undefined && bloqueSeleccionado.tipo == seleccion2.tipoDato[seleccionSubBloque]) {
+          seleccion2.addSubBloque(seleccionSubBloque, bloqueSeleccionado); // Lo añadimos dentro de un bloque
+          seleccion2 = null;
+        // Si hay selección de un bloque o de la parte superior de un bucle...
+        } else if (seleccion != null && seleccion != undefined && seleccion.tipo == '_' && bloqueSeleccionado.tipo == '_') {
+          conectar(bloqueSeleccionado, seleccion, true); // Lo conectamos (true indica parte superior)  
+          seleccion = null;
+        }
+      } 
+      if (!desplegableBloque) {
+        bloqueSeleccionado = null;
+        bloquesSeleccionados = [];
+      }
+    } 
+  } // MODO SELECCIÓN DE TAPETE (modo == 6)
+  else if (modo == 6) {
+    // Liberar barra de scroll
+    draggingScrollBar = false;
+  }
+}
+
+function keyPressed() {
+  // MODO SIMULACIÓN
+  if (modo == 5) {
+    // Tecla ESPACIO: alternar ejecución
+    if (key == ' ') {
+      if (ejecutando) {
+        botonStop();
+      } else {
+        botonPlay();
+      }
+      return;
+    } 
+    // Tecla 'R': reiniciar simulación
+    if (key == 'r' || key == 'R') {
+      botonReset();
+      return;
+    }
+    if (keyCode === 27) {  // 27 es el código de ESC
+    }
+    // Tecla DELETE: eliminar obstáculo seleccionado
+    if (key == DELETE || key == BACKSPACE) {
+      if (obstaculoSeleccionado != null) {
+        let index = obstaculo.indexOf(obstaculoSeleccionado);
+        if (index > -1) {
+          obstaculoSeleccionado.eliminar();
+          obstaculo.splice(index, 1);
+          obstaculoInicio.splice(index, 1);
+          obstaculoSeleccionado = null;
+          movidoDuranteEjecucion = true;
+        }
+      }
+      return;
+    }
+  } // MODO EDICIÓN DE BLOQUES
+  else if (modo == 4) {
+    // Si estamos editando texto
+    if (modo==4 && bloqueEditando != null && colorPickerOpen == false) {
+      if (keyCode == BACKSPACE) {
+        // Eliminar último carácter
+        if (textoTemporal.length > 0) {
+          textoTemporal = textoTemporal.substring(0, textoTemporal.length - 1);
+        }
+      } else if (keyCode == ENTER || keyCode == RETURN || keyCode == ESCAPE) {
+        cerrarEdicionTexto();
+      }  else if (textoTemporal.length < maximoCaracteres) {
+        // Añadir carácter
+        if (bloqueEditando.nombre!="VariableBlock") {
+          if ((key >= '0' && key <= '9') || key == '.' || key == '-') {
+            textoTemporal += key;
+          } 
+        } else if ((key >= '0' && key <= '9') || (key >= 'a' && key <= 'z') || (key >= 'A' && key <= 'Z') || key === '.' || key === '-') {
+          textoTemporal += key;
+        }
+      }
+      return;
+    }
+    // Tecla DELETE: eliminar bloque seleccionado
+    if (keyCode == DELETE || keyCode == BACKSPACE) {
+      if (bloqueSeleccionado2 != null) {
+        // Lógica para eliminar bloque
+        eliminarBloque(bloqueSeleccionado2);
+        bloqueSeleccionado2 = null;
+        xDesplegable = -100;
+        yDesplegable = -100;
+      }
+      return;
+    }
+    // Teclas ZOOM: Ctrl+ y Ctrl-
+    if (keyCode == 61 && (keyIsDown(CONTROL) || keyIsDown(91))) { // Ctrl+ o Cmd+
+      zoomCodigo = min(zoomCodigo + 0.1, 3.0);
+      return;
+    }
+    if (keyCode == 173 && (keyIsDown(CONTROL) || keyIsDown(91))) { // Ctrl- o Cmd-
+      zoomCodigo = max(zoomCodigo - 0.1, 0.5);
+      return;
+    }
+  }
+}
+
+function eliminarBloques() {
+  for (let bloque of bloquesSeleccionados) bloque.eliminarBloque();
+}
+
+function cerrarEdicionTexto() {
+  // Si estamos editando un bloque del escenario y no el nombre de una variable...
+  if (!(bloqueEditando.categoria === 3 && bloqueEditando.id > 3)) {
+    if (esNumeroReal(textoTemporal)) {
+      let numero = parseFloat(textoTemporal);     
+      // Si el número supera el máximo permitido para ese bloque lo limita
+      if (bloqueEditando.nombre === "MotorBlock") {
+        if (numero > 100) numero = 100;
+        else if (numero < 0) numero = 0;
+      } else if (bloqueEditando.nombre === "ServoBlock" || bloqueEditando.nombre === "ServoBlockType") {
+        if (numero > 90) numero = 90;
+        else if (numero < -90) numero = -90;
+      } else if (bloqueEditando.nombre === "SetSprakleBlock" || bloqueEditando.nombre === "TurnSprakleOffBlock" || (bloqueEditando.nombre === "SetSprakleRGBBlock" && subBloqueEditando === 0)) {
+        if (numero > 31) numero = 31;
+        else if (numero < 0) numero = 0;
+      } else if ((bloqueEditando.nombre === "SetSprakleRGBBlock" && (subBloqueEditando === 1 || subBloqueEditando === 2 || subBloqueEditando === 3)) || bloqueEditando.nombre === "SetAllSparklesRGBBlock") {
+        if (numero > 255) numero = 255;
+        else if (numero < 0) numero = 0;
+      } else if (bloqueEditando.nombre === "WaitBlock" || bloqueEditando.nombre === "WaitMSBlock" || bloqueEditando.nombre === "DoTimesBlock") {
+        if (numero > 32767) numero = 32767;
+        else if (numero < 0) numero = 0;
+      } else if (bloqueEditando.nombre === "AddBlock" || bloqueEditando.nombre === "SubBlock" || bloqueEditando.nombre === "MultiplyBlock" || bloqueEditando.nombre === "DivideBlock") {
+        if (numero > 32767) numero = 32767;
+        else if (numero < 0) numero = 0;
+      } else if (bloqueEditando.nombre === "EqualityBlock" || bloqueEditando.nombre === "NotEqualBlock" || bloqueEditando.nombre === "LessThanBlock" || bloqueEditando.nombre === "GreaterThanBlock" || bloqueEditando.nombre === "RandomBlock") {
+        if (numero > 32767) numero = 32767;
+        else if (numero < 0) numero = 0;
+      } else if (bloqueEditando.nombre === "SmartDigitsBlock") {
+        if (numero > 32767) numero = 32767;
+        else if (numero < 0) numero = 0;
+      } else if (bloqueEditando.nombre === "SmartPitchBlock") {
+        if (numero > 20000) numero = 20000;
+        else if (numero < 0) numero = 0;
+      } else if (bloqueEditando.nombre === "SetTempoBlock") {
+        if (numero > 300) numero = 300;
+        else if (numero < 0) numero = 0;
+      }
+      // Hay bloques que sólo permiten número enteros y otros que admiten números reales
+      if (bloqueEditando.nombre === "WaitBlock") {
+        textoTemporal = String(numero);
+      } else {
+        textoTemporal = String(Math.floor(numero));
+      }
+      // Sustituimos el valor del parámetro/dato del bloque por el del cuadro de texto
+      bloqueEditando.dato[subBloqueEditando] = textoTemporal;
+      // Recalculamos las dimensiones del bloque
+      bloqueEditando.AxDato[subBloqueEditando] = bloqueEditando.calculoAnchoDato(bloqueEditando.dato[subBloqueEditando]);
+      bloqueEditando.calculoDimensiones();
+    }
+  } 
+  // Si estamos editando el nombre de una variable
+  else {
+    // Si el nombre de la variable no está en blanco...
+    if (textoTemporal.replace(/ /g, "").length > 0) {
+      bloqueEditando.texto[0] = textoTemporal;
+      bloqueEditando.AxTexto[0] = bloqueEditando.calculoAnchoDato(bloqueEditando.texto[0]);
+      bloqueEditando.calculoDimensiones();
+      // Recoloca el botón DELETE
+      bloqueEditando.siguiente.x = bloqueEditando.x + bloqueEditando.ancho + 10;
+      // Recoloca el botón RENAME
+      bloqueEditando.siguiente.siguiente.x = bloqueEditando.siguiente.x + bloqueEditando.siguiente.ancho + 10;
+      let bloqueRENAME = bloqueEditando.siguiente.siguiente;
+      if (bloqueRENAME.x + bloqueRENAME.ancho + 5 > anchoMenu[3]) {
+        anchoMenu[3] = bloqueRENAME.x + bloqueRENAME.ancho + 5;
+      }
+      // Actualizar nombre en todos los bloques
+      for (let bloque of codigo) {
+        bloque.actualizarNombreVariables(bloqueEditando);
+      }
+    }
+  }
+  // Desactiva el cuadro de texto activo
+  bloqueEditando = null;
+  textoTemporal = "";
+}
+
+function mouseWheel(event) {
+  // ZOOM en modo simulación
+  if (modo == 5) {
+    let zoomFactor = 1.1;
+    let mouseXBefore = (mouseX - windowWidth / 2) / (zoomSimulacion * escalaBase) - panSimulacionX;
+    let mouseYBefore = (mouseY - windowHeight / 2) / (zoomSimulacion * escalaBase) - panSimulacionY;
+    if (event.delta > 0) {
+      zoomSimulacion /= zoomFactor;
+    } else {
+      zoomSimulacion *= zoomFactor;
+    }
+    zoomSimulacion = constrain(zoomSimulacion, 0.1, 3.0);
+    let mouseXAfter = (mouseX - windowWidth / 2) / (zoomSimulacion * escalaBase) - panSimulacionX;
+    let mouseYAfter = (mouseY - windowHeight / 2) / (zoomSimulacion * escalaBase) - panSimulacionY;
+    panSimulacionX += mouseXAfter - mouseXBefore;
+    panSimulacionY += mouseYAfter - mouseYBefore;
+  } // ZOOM en modo edición de bloques
+  else if (modo == 4) {
+    let zoomFactor = 1.1;
+    let mouseXBefore = (mouseX - windowWidth / 2) / (zoomCodigo * escalaBase) - panCodigoX;
+    let mouseYBefore = (mouseY - windowHeight / 2) / (zoomCodigo * escalaBase) - panCodigoY;
+    if (event.delta > 0) {
+      zoomCodigo /= zoomFactor;
+    } else {
+      zoomCodigo *= zoomFactor;
+    }
+    zoomCodigo = constrain(zoomCodigo, 0.5, 3.0); 
+    let mouseXAfter = (mouseX - windowWidth / 2) / (zoomCodigo * escalaBase) - panCodigoX;
+    let mouseYAfter = (mouseY - windowHeight / 2) / (zoomCodigo * escalaBase) - panCodigoY;
+    panCodigoX += mouseXAfter - mouseXBefore;
+    panCodigoY += mouseYAfter - mouseYBefore;
+  } // Scroll en modo selección de tapete
+  else if (modo == 6) {
+    offsetYBarra += event.delta * 0.5;
+    let maxOffset = totalThumbnailsHeight - (windowHeight / escalaBase - 100);
+    offsetYBarra = constrain(offsetYBarra, 0, maxOffset);
+  }
+  return false; // Prevenir scroll predeterminado
+}
+
+function cargarFondo() {
+  loadImage("assets/images/escenarios/" + nombreFondo,(img) => {
+    anchoTapete=img.width;
+    altoTapete=img.height;
+    fondo = createGraphics(anchoTapete,altoTapete);
+    fondo.pixelDensity(1);
+    fondo.background(255);
+
+  laterales.push(new Obstaculo(0,-altoTapete/2-10,anchoTapete+40,20,0,true));
+  laterales.push(new Obstaculo(0,altoTapete/2+10,anchoTapete+40,20,0,true));
+  laterales.push(new Obstaculo(-anchoTapete/2-10,0,20,altoTapete,0,true));
+  laterales.push(new Obstaculo(anchoTapete/2+10,0,20,altoTapete,0,true));  
+
+    fondo.image(img, 0, 0, anchoTapete,altoTapete);
+    Matter.Body.setPosition(laterales[0].body, { x: 0 , y: -altoTapete/2-10 });
+    laterales[0].setSize(anchoTapete+40,20);
+    Matter.Body.setPosition(laterales[1].body, { x: 0 , y: altoTapete/2+10 });
+    laterales[1].setSize(anchoTapete+40,20);
+    Matter.Body.setPosition(laterales[2].body, { x: -anchoTapete/2-10 , y: 0 });
+    laterales[2].setSize(20,altoTapete);
+    Matter.Body.setPosition(laterales[3].body, { x: anchoTapete/2+10 , y: 0 });
+    laterales[3].setSize(20,altoTapete);
+    modo=5;
+    return;
+  });
+}
+//*******************************************************************
+
+function botonPlay() {
+  if (modo == 5 && !ejecutando) {
+    ejecutando = true;
+    inicioCrono = millis();
+    bloqueEjecutando = bloqueStartSeleccionado;
+    // Resetear variables
+    for (let variable of codigoVariables) {
+      variable.dato[0] = "0";
+      variable.valorNumerico = 0;
+    }
+  }
+}
+
+function botonStop() {
+  ejecutando = false;
+  bloqueEjecutando = null;
+  // Detener sonido
+  isBeeping = false;
+  // sine.stop(); // Si estás usando p5.sound
+}
+
+function botonReiniciar() {
+  // Pone las variables a cero
+  for (let variable of codigoVariables) {
+    variable.dato[0] = "0";
+    variable.valorNumerico = 0;
+  }
+  // Establece las coordenadas y ángulo del robot iniciales
+  Matter.Body.setPosition(robotFisico.body, { 
+    x: robotFisico.xInicio, 
+    y: robotFisico.yInicio 
+  });
+  robotFisico.body.angle = robotFisico.anguloInicio;
+  // Establece los obstáculos en su configuración inicial
+  // Eliminar obstáculos existentes
+  if (obstaculo) {
+    for (let i = obstaculo.length - 1; i >= 0; i--) {
+      if (obstaculo[i] && obstaculo[i].eliminar) {
+        obstaculo[i].eliminar();
+      }
+    }
+    obstaculo.length = 0; // clear() en JavaScript
+    // Recrear obstáculos desde la configuración inicial
+    if (obstaculoInicio != null) {
+      for (let i = 0; i < obstaculoInicio.length; i++) {
+        let obsInicial = obstaculoInicio[i];
+        if (obsInicial) {
+          let nuevoObstaculo = new Obstaculo(
+            obsInicial.x,
+            obsInicial.y,
+            obsInicial.ancho,
+            obsInicial.alto,
+            obsInicial.angulo,
+            obsInicial.estatico
+          );
+          obstaculo.push(nuevoObstaculo);
+          Body.setVelocity(obstaculo, 0);
+          Body.setAngularVelocity(obstaculo, 0);
+        }
+      }
+    }
+  }
+  // Para que se ejecute debe haber al menos un bloque Start
+  bloqueEjecutando = bloqueStartSeleccionado;
+  movidoDuranteEjecucion = false;
+  esperarUnCiclo = false;
+  saltoIfElse = false;
+  miliSegundos = 0;
+  Crono = 0;
+  Distancia = 0;
+  // Detiene los motores
+  robotFisico.potMotor[0] = 0;
+  robotFisico.potMotor[1] = 0;
+  Body.setVelocity(robotFisico.body, { x: 0 , y: 0 });
+  Body.setAngularVelocity(robotFisico.body, 0);
+  // Desactiva el zumbador
+  isBeeping = false;
+  /*if (sine && sine.stop) {
+    sine.stop();
+  }*/
+  // Desactiva todos los diodos LED
+  for (let i = 0; i < colorLED.length; i++) {
+    colorLED[i] = null;
+  }
+  // Reinicio adicional de variables (repetido en tu código original)
+  for (let variable of codigoVariables) {
+    variable.dato[0] = "0";
+  } 
+}
